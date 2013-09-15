@@ -1,0 +1,50 @@
+<positions>
+    <element name="Books_Atraction">
+        <x>4.000000000</x>
+        <y>986.000000000</y>
+        <width>1672.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Books_Turbulence">
+        <x>4.000000000</x>
+        <y>986.000000000</y>
+        <width>1672.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Group_A_Brigness">
+        <x>0.000000000</x>
+        <y>45.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Group_B_Brigness">
+        <x>0.000000000</x>
+        <y>91.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Group_C_Brigness">
+        <x>0.000000000</x>
+        <y>137.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Group_D_Brigness">
+        <x>0.000000000</x>
+        <y>183.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Particles_Atraction">
+        <x>0.000000000</x>
+        <y>229.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Particles_Turbulence">
+        <x>0.000000000</x>
+        <y>275.000000000</y>
+        <width>1680.000000000</width>
+        <height>40.000000000</height>
+    </element>
+</positions>

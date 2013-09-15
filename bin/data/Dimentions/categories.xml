@@ -1,0 +1,319 @@
+<rect>
+    <name>Arts, Architecture and Applied Arts</name>
+    <holding>0.07</holding>
+    <circ>0.04</circ>
+    <x>183.000000000</x>
+    <y>-13.000000000</y>
+    <width>44.000000000</width>
+    <height>175.000000000</height>
+    <nodes>
+        <node>
+            <name>Architecture</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Arts and Crafts</name>
+            <holding>0.03</holding>
+        </node>
+        <node>
+            <name>Fine Arts</name>
+            <holding>0.02</holding>
+        </node>
+        <node>
+            <name>Gardens</name>
+            <holding>0.01</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Business and Economics</name>
+    <holding>0.07</holding>
+    <circ>0.09</circ>
+    <x>-137.000000000</x>
+    <y>128.000000000</y>
+    <width>223.000000000</width>
+    <height>62.000000000</height>
+    <nodes>
+        <node>
+            <name>Business</name>
+            <holding>0.05</holding>
+        </node>
+        <node>
+            <name>Economics</name>
+            <holding>0.02</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Engineering and Applied Sciences</name>
+    <holding>0.03</holding>
+    <circ>0.04</circ>
+    <x>168.000000000</x>
+    <y>210.000000000</y>
+    <width>92.000000000</width>
+    <height>113.000000000</height>
+    <nodes>
+        <node>
+            <name>Applied Mathematics</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Applied Physics</name>
+            <holding>0.005</holding>
+        </node>
+        <node>
+            <name>Computer Science</name>
+            <holding>0.005</holding>
+        </node>
+        <node>
+            <name>Engineering</name>
+            <holding>0.01</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>General</name>
+    <holding>0.02</holding>
+    <circ>0.00</circ>
+    <x>-120.000000000</x>
+    <y>-265.000000000</y>
+    <width>85.000000000</width>
+    <height>150.000000000</height>
+    <nodes>
+        <node>
+            <name>Academies and Learned Societies Publications</name>
+            <holding>0.005</holding>
+        </node>
+        <node>
+            <name>Almanacs, Directories and Yearbooks</name>
+            <holding>0.005</holding>
+        </node>
+        <node>
+            <name>Bibliography</name>
+            <holding>0.01</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Health Sciences</name>
+    <holding>0.05</holding>
+    <circ>0.04</circ>
+    <x>-616.000000000</x>
+    <y>396.000000000</y>
+    <width>206.000000000</width>
+    <height>84.000000000</height>
+    <nodes>
+        <node>
+            <name>Biomedical Engineering</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Dentistry</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Medicine</name>
+            <holding>0.03</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>History and Archaeology</name>
+    <holding>0.18</holding>
+    <circ>0.16</circ>
+    <x>-132.000000000</x>
+    <y>-413.000000000</y>
+    <width>218.000000000</width>
+    <height>78.000000000</height>
+    <nodes>
+        <node>
+            <name>Archaeology</name>
+            <holding>0.06</holding>
+        </node>
+        <node>
+            <name>Biography</name>
+            <holding>0.04</holding>
+        </node>
+        <node>
+            <name>History</name>
+            <holding>0.08</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Journalism and Communications</name>
+    <holding>0.01</holding>
+    <circ>0.01</circ>
+    <x>-450.000000000</x>
+    <y>-248.000000000</y>
+    <width>260.000000000</width>
+    <height>53.000000000</height>
+    <nodes>
+        <node>
+            <name>Communication and Mass Media</name>
+            <holding>0.002</holding>
+        </node>
+        <node>
+            <name>Freedom of the Press and Censorship</name>
+            <holding>0.001</holding>
+        </node>
+        <node>
+            <name>Journalism</name>
+            <holding>0.004</holding>
+        </node>
+        <node>
+            <name>Radio and TV Broadcasting</name>
+            <holding>0.003</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Languages and Literatures</name>
+    <holding>0.23</holding>
+    <circ>0.19</circ>
+    <x>11.000000000</x>
+    <y>-170.000000000</y>
+    <width>78.000000000</width>
+    <height>152.000000000</height>
+    <nodes>
+        <node>
+            <name>African Lang and Lit</name>
+            <holding>0.05</holding>
+        </node>
+        <node>
+            <name>Austronesian, Papuan and Australian Lang and Lit</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Celtic Lang and Lit</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>East Asian Lang and Lit</name>
+            <holding>0.05</holding>
+        </node>
+        <node>
+            <name>English</name>
+            <holding>0.11</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Law, Politics and Government</name>
+    <holding>0.06</holding>
+    <circ>0.07</circ>
+    <x>308.000000000</x>
+    <y>-160.000000000</y>
+    <width>97.000000000</width>
+    <height>108.000000000</height>
+    <nodes>
+        <node>
+            <name>Government (General)</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Government (Non-U.S.)</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Government (U.S.)</name>
+            <holding>0.04</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Music, Dance, Drama and Film</name>
+    <holding>0.03</holding>
+    <circ>0.04</circ>
+    <x>-443.000000000</x>
+    <y>-117.000000000</y>
+    <width>254.000000000</width>
+    <height>55.000000000</height>
+    <nodes>
+        <node>
+            <name>Dance</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Drama</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Film</name>
+            <holding>0.005</holding>
+        </node>
+        <node>
+            <name>Music</name>
+            <holding>0.005</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Philosophy and Religion</name>
+    <holding>0.12</holding>
+    <circ>0.09</circ>
+    <x>-341.000000000</x>
+    <y>247.000000000</y>
+    <width>93.000000000</width>
+    <height>101.000000000</height>
+    <nodes>
+        <node>
+            <name>Philosophy</name>
+            <holding>0.07</holding>
+        </node>
+        <node>
+            <name>Religion</name>
+            <holding>0.05</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Sciences</name>
+    <holding>0.05</holding>
+    <circ>0.10</circ>
+    <x>-435.000000000</x>
+    <y>53.000000000</y>
+    <width>90.000000000</width>
+    <height>110.000000000</height>
+    <nodes>
+        <node>
+            <name>Agriculture</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Astronomy and Astrophysics</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Mathematics</name>
+            <holding>0.03</holding>
+        </node>
+    </nodes>
+</rect>
+<rect>
+    <name>Social Sciences</name>
+    <holding>0.09</holding>
+    <circ>0.12</circ>
+    <x>313.000000000</x>
+    <y>60.000000000</y>
+    <width>152.000000000</width>
+    <height>72.000000000</height>
+    <nodes>
+        <node>
+            <name>Anthropology</name>
+            <holding>0.02</holding>
+        </node>
+        <node>
+            <name>Education</name>
+            <holding>0.05</holding>
+        </node>
+        <node>
+            <name>Geography</name>
+            <holding>0.01</holding>
+        </node>
+        <node>
+            <name>Parapsychology and Occult Sciences</name>
+            <holding>0.01</holding>
+        </node>
+    </nodes>
+</rect>
