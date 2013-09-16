@@ -2,7 +2,7 @@
 
 #include "UITimeProject.h"
 
-#include "PostRender.h"
+#include "UIPostRender.h"
 #include "BookParticle.h"
 #include "Category.h"
 
@@ -50,7 +50,7 @@ public:
 protected:
     
     void    drawBrakets(ofRectangle _rect, float _size, float _margin);
-    PostRender  post;
+    UIPostRender  post;
     
     //  Scene
     //
