@@ -2,8 +2,8 @@
     <Kind>42</Kind>
     <Name>SystemSettings</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>1.000000000</XPosition>
-    <YPosition>250.000000000</YPosition>
+    <XPosition>1218.000000000</XPosition>
+    <YPosition>284.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -13,40 +13,30 @@
 <Widget>
     <Kind>4</Kind>
     <Name>speed</Name>
-    <Value>0.871428609</Value>
+    <Value>0.920197070</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>turbulence</Name>
-    <Value>0.000000000</Value>
+    <Value>0.005763547</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>neigbordhood</Name>
-    <Value>1.000000000</Value>
+    <Value>472.960601807</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>independence</Name>
-    <Value>0.349753708</Value>
-</Widget>
-<Widget>
-    <Kind>4</Kind>
-    <Name>attraction_origin</Name>
-    <Value>0.000000000</Value>
+    <Value>0.049261082</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>attraction_destiny</Name>
-    <Value>0.000000000</Value>
+    <Value>0.931034505</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>attraction_network</Name>
-    <Value>0.064039409</Value>
-</Widget>
-<Widget>
-    <Kind>4</Kind>
-    <Name>attraction_subjects</Name>
-    <Value>0.532019675</Value>
+    <Value>0.088669948</Value>
 </Widget>

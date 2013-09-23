@@ -1,16 +1,26 @@
+//
+//  circles.h
+//  ColumbiaLibrary
+//
+//  Created by Patricio Gonzalez Vivo on 9/22/13.
+//
+//
+
 #pragma once
 
 #include "UITimeProject.h"
 
-#include "UIPostRender.h"
-#include "Category.h"
-#include "BookParticle.h"
+#include "DraggableCircle.h"
+#include "CParticle.h"
 
-class Dimentions : public UITimeProject {
+#define TOTAL_LEVELS 2
+#define TOTAL_PARTICLES 50000
+
+class Circles : public UITimeProject {
 public:
     
     string getSystemName(){
-		return "Dimentions";
+		return "Circles";
 	}
     
     void selfSetupGui();
@@ -34,6 +44,7 @@ public:
 	void selfDrawDebug();
 	void selfDrawBackground();
     
+    void selfDrawOverlay();
     void selfPostDraw();
     
 	void selfEnd();
@@ -48,47 +59,24 @@ public:
     void selfMouseReleased(ofMouseEventArgs& data);
     
 protected:
-    UIPostRender              post;
+    
+    //  Levels of Categories
+    //
+    void    loadCircles(string _file, vector<DraggableCircle> &_circles);
+    vector<DraggableCircle> level[TOTAL_LEVELS];
     
     ofImage                 colorSampleImage;
     
-    //  Categories
+    //  Particles ( Books )
     //
-    void                    drawBrakets(ofRectangle _rect, float size, float margin);
-    vector<Category>        categories;
-    ofTrueTypeFont          font;
-    ofImage                 mapImage;
-    ofxUIImageSampler*      categoriesColorSampler;
-    ofxUIImageSampler*      categoriesNodesColorSampler;
-    ofFloatColor            categoriesTintColor;
-    ofFloatColor            categoriesNodesTintColor;
-    float                   debugTranslation, debugScale;
+    vector<CParticle*>      particles;
+    ofFloatColor            particlesTintColor;
+    ofxUIImageSampler*      particlesColorSampler;
     
-    //  Subjects ( Networks Atractors )
-    //
-    vector<ofVec4f*>        subjects;
-    
-    //  Books
-    //
-    void                    assignDataToBooks();
-    void                    orientBillBoard();
-    void                    drawLabel(ofPoint _loc, string _name);
-    
-    int                     TOTAL_OF_BOOKS;
-    vector<BookParticle*>   books;
-    vector<BookParticle*>   booksWithTags;
-    ofxUIImageSampler*      booksColorSampler;
-    ofFloatColor            bookTintColor;
-    ofxUIImageSampler*      booksTextColorSampler;
-    ofFloatColor            bookTextColor;
     ofPoint                 globalOffset;
     float                   speed;
     float                   turbulence,neigbordhood,independence;
-    float                   originAttraction, destinyAttraction, networkAttraction, subjectsAttraction;
-    
-    vector< vector<int> >   updateIndexMap;
-    float                   updateIndex;
-    bool                    updateCycle;
+    float                   networkAttraction, destinyAttraction;
     
     ofVbo                   spriteVBO;
     ofShader                spriteShader;
@@ -98,5 +86,4 @@ protected:
     float                   spriteSize,spriteSizeMin,spriteSizeMax,spriteFocusDistance,spriteFocusAperture;
     int                     spriteIndexCount;
     int                     spriteNextIndex;
-    
 };

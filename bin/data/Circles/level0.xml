@@ -1,0 +1,104 @@
+<circle>
+    <name>Arts, Architecture and Applied Arts</name>
+    <x>-204.000000000</x>
+    <y>-239.000000000</y>
+    <z>0</z>
+    <pct>0.07</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Business and Economics</name>
+    <x>-114.000000000</x>
+    <y>-304.000000000</y>
+    <z>0</z>
+    <pct>0.07</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Engineering and Applied Sciences</name>
+    <x>120.000000000</x>
+    <y>172.000000000</y>
+    <z>0</z>
+    <pct>0.03</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>General</name>
+    <x>-183.000000000</x>
+    <y>40.000000000</y>
+    <z>0</z>
+    <pct>0.02</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Health Sciences</name>
+    <x>177.000000000</x>
+    <y>112.000000000</y>
+    <z>0</z>
+    <pct>0.05</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>History and Archaeology</name>
+    <x>-251.000000000</x>
+    <y>-77.000000000</y>
+    <z>0</z>
+    <pct>0.18</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Journalism and Communications</name>
+    <x>153.000000000</x>
+    <y>-211.000000000</y>
+    <z>0</z>
+    <pct>0.01</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Languages and Literatures</name>
+    <x>-64.000000000</x>
+    <y>163.000000000</y>
+    <z>0</z>
+    <pct>0.23</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Law, Politics and Government</name>
+    <x>-25.000000000</x>
+    <y>-345.000000000</y>
+    <z>0</z>
+    <pct>0.06</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Music, Dance, Drama and Film</name>
+    <x>183.000000000</x>
+    <y>-162.000000000</y>
+    <z>0</z>
+    <pct>0.03</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Philosophy and Religion</name>
+    <x>121.000000000</x>
+    <y>-301.000000000</y>
+    <z>0</z>
+    <pct>0.12</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Sciences</name>
+    <x>247.000000000</x>
+    <y>-75.000000000</y>
+    <z>0</z>
+    <pct>0.05</pct>
+    <parent>-1</parent>
+</circle>
+<circle>
+    <name>Social Sciences</name>
+    <x>260.000000000</x>
+    <y>26.000000000</y>
+    <z>0</z>
+    <pct>0.09</pct>
+    <parent>-1</parent>
+</circle>

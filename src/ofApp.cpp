@@ -4,7 +4,7 @@
 void ofApp::setup(){
     ofSetVerticalSync(true);
 	
-    project = new Dimentions();
+    project = new Circles();
     project->setup();
     project->play();
 }
@@ -33,6 +33,13 @@ void ofApp::keyPressed(int key){
         project = NULL;
         
         project = new Dimentions();
+        project->setup();
+        project->play();
+    } else if( key == '3'){
+        project->stop();
+        project = NULL;
+        
+        project = new Circles();
         project->setup();
         project->play();
     }

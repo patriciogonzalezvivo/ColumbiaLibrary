@@ -112,9 +112,8 @@ void InBoxes::selfSetup(){
 }
 
 void InBoxes::selfSetupGui(){
-    ofxUISuperCanvas* postGui = post.getUI();
-	guis.push_back(postGui);
-	guimap[postGui->getName()] = postGui;
+    
+    guiAdd( post );
 }
 
 void InBoxes::selfGuiEvent(ofxUIEventArgs &e){

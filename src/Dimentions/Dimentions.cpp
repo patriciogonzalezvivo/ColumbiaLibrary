@@ -184,9 +184,8 @@ void Dimentions::assignDataToBooks(){
 }
 
 void Dimentions::selfSetupGui(){
-    ofxUISuperCanvas* postGui = post.getUI();
-	guis.push_back(postGui);
-	guimap[postGui->getName()] = postGui;
+    
+    guiAdd( post );
 }
 
 void Dimentions::selfGuiEvent(ofxUIEventArgs &e){
