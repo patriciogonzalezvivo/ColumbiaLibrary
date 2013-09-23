@@ -2,7 +2,6 @@
 
 #include "UITimeProject.h"
 
-#include "UIPostRender.h"
 #include "Category.h"
 #include "BookParticle.h"
 
@@ -48,7 +47,6 @@ public:
     void selfMouseReleased(ofMouseEventArgs& data);
     
 protected:
-    UIPostRender              post;
     
     ofImage                 colorSampleImage;
     

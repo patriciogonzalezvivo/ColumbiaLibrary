@@ -185,7 +185,6 @@ void Dimentions::assignDataToBooks(){
 
 void Dimentions::selfSetupGui(){
     
-    guiAdd( post );
 }
 
 void Dimentions::selfGuiEvent(ofxUIEventArgs &e){
@@ -456,9 +455,7 @@ void Dimentions::selfPostDraw(){
     if (bDebug){
         UITimeProject::selfPostDraw();
     } else {
-        post.begin();
         UIProject::selfPostDraw();
-        post.end();
     }
 }
 

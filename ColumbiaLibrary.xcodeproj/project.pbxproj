@@ -17,19 +17,15 @@
 		3D57CEEB17E61A380092919E /* BookParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D57CEE517E61A380092919E /* BookParticle.cpp */; };
 		3D57CEEC17E61A380092919E /* Category.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D57CEE717E61A380092919E /* Category.cpp */; };
 		3D57CF8717E61E7B0092919E /* UITimeProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D57CF8517E61E7B0092919E /* UITimeProject.cpp */; };
+		3DB0D1B917F0C0AC0050BF5E /* DraggableRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D1B717F0C0AC0050BF5E /* DraggableRectangle.cpp */; };
 		3DD13D6E17EF99CF00FA13BC /* UIBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13CFA17EF99CF00FA13BC /* UIBackground.cpp */; };
 		3DD13D6F17EF99CF00FA13BC /* UISuperBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13CFC17EF99CF00FA13BC /* UISuperBackground.cpp */; };
 		3DD13D7017EF99CF00FA13BC /* UIFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0017EF99CF00FA13BC /* UIFog.cpp */; };
 		3DD13D7117EF99CF00FA13BC /* UILight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0217EF99CF00FA13BC /* UILight.cpp */; };
 		3DD13D7217EF99CF00FA13BC /* UIMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0417EF99CF00FA13BC /* UIMaterial.cpp */; };
-		3DD13D7317EF99CF00FA13BC /* UIPostRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0617EF99CF00FA13BC /* UIPostRender.cpp */; };
 		3DD13D7417EF99CF00FA13BC /* UIShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0817EF99CF00FA13BC /* UIShader.cpp */; };
 		3DD13D7517EF99CF00FA13BC /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D0C17EF99CF00FA13BC /* Grid.cpp */; };
 		3DD13D7617EF99CF00FA13BC /* UIGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1017EF99CF00FA13BC /* UIGrid.cpp */; };
-		3DD13D7717EF99CF00FA13BC /* DraggableRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1317EF99CF00FA13BC /* DraggableRectangle.cpp */; };
-		3DD13D7817EF99CF00FA13BC /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1617EF99CF00FA13BC /* Book.cpp */; };
-		3DD13D7917EF99CF00FA13BC /* Gear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1817EF99CF00FA13BC /* Gear.cpp */; };
-		3DD13D7A17EF99CF00FA13BC /* Page.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1A17EF99CF00FA13BC /* Page.cpp */; };
 		3DD13D7B17EF99CF00FA13BC /* Boid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1D17EF99CF00FA13BC /* Boid.cpp */; };
 		3DD13D7C17EF99CF00FA13BC /* Flock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D1F17EF99CF00FA13BC /* Flock.cpp */; };
 		3DD13D7D17EF99CF00FA13BC /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D2117EF99CF00FA13BC /* Particle.cpp */; };
@@ -192,6 +188,8 @@
 		3D57CF8317E61E7B0092919E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3D57CF8517E61E7B0092919E /* UITimeProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UITimeProject.cpp; sourceTree = "<group>"; };
 		3D57CF8617E61E7B0092919E /* UITimeProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITimeProject.h; sourceTree = "<group>"; };
+		3DB0D1B717F0C0AC0050BF5E /* DraggableRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DraggableRectangle.cpp; sourceTree = "<group>"; };
+		3DB0D1B817F0C0AC0050BF5E /* DraggableRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableRectangle.h; sourceTree = "<group>"; };
 		3DD13CF717EF99CF00FA13BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3DD13CFA17EF99CF00FA13BC /* UIBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIBackground.cpp; sourceTree = "<group>"; };
 		3DD13CFB17EF99CF00FA13BC /* UIBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBackground.h; sourceTree = "<group>"; };
@@ -204,8 +202,6 @@
 		3DD13D0317EF99CF00FA13BC /* UILight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILight.h; sourceTree = "<group>"; };
 		3DD13D0417EF99CF00FA13BC /* UIMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIMaterial.cpp; sourceTree = "<group>"; };
 		3DD13D0517EF99CF00FA13BC /* UIMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMaterial.h; sourceTree = "<group>"; };
-		3DD13D0617EF99CF00FA13BC /* UIPostRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIPostRender.cpp; sourceTree = "<group>"; };
-		3DD13D0717EF99CF00FA13BC /* UIPostRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPostRender.h; sourceTree = "<group>"; };
 		3DD13D0817EF99CF00FA13BC /* UIShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIShader.cpp; sourceTree = "<group>"; };
 		3DD13D0917EF99CF00FA13BC /* UIShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIShader.h; sourceTree = "<group>"; };
 		3DD13D0A17EF99CF00FA13BC /* Uniform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uniform.h; sourceTree = "<group>"; };
@@ -215,14 +211,6 @@
 		3DD13D0F17EF99CF00FA13BC /* GridCross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCross.h; sourceTree = "<group>"; };
 		3DD13D1017EF99CF00FA13BC /* UIGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIGrid.cpp; sourceTree = "<group>"; };
 		3DD13D1117EF99CF00FA13BC /* UIGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGrid.h; sourceTree = "<group>"; };
-		3DD13D1317EF99CF00FA13BC /* DraggableRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DraggableRectangle.cpp; sourceTree = "<group>"; };
-		3DD13D1417EF99CF00FA13BC /* DraggableRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableRectangle.h; sourceTree = "<group>"; };
-		3DD13D1617EF99CF00FA13BC /* Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
-		3DD13D1717EF99CF00FA13BC /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		3DD13D1817EF99CF00FA13BC /* Gear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gear.cpp; sourceTree = "<group>"; };
-		3DD13D1917EF99CF00FA13BC /* Gear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gear.h; sourceTree = "<group>"; };
-		3DD13D1A17EF99CF00FA13BC /* Page.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Page.cpp; sourceTree = "<group>"; };
-		3DD13D1B17EF99CF00FA13BC /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
 		3DD13D1D17EF99CF00FA13BC /* Boid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boid.cpp; sourceTree = "<group>"; };
 		3DD13D1E17EF99CF00FA13BC /* Boid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boid.h; sourceTree = "<group>"; };
 		3DD13D1F17EF99CF00FA13BC /* Flock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flock.cpp; sourceTree = "<group>"; };
@@ -549,6 +537,8 @@
 		3D57CEE417E61A380092919E /* common */ = {
 			isa = PBXGroup;
 			children = (
+				3DB0D1B717F0C0AC0050BF5E /* DraggableRectangle.cpp */,
+				3DB0D1B817F0C0AC0050BF5E /* DraggableRectangle.h */,
 				3D57CEE617E61A380092919E /* BookParticle.h */,
 				3D57CEE517E61A380092919E /* BookParticle.cpp */,
 				3D57CEE817E61A380092919E /* Category.h */,
@@ -593,8 +583,6 @@
 				3DD13CF917EF99CF00FA13BC /* background */,
 				3DD13CFE17EF99CF00FA13BC /* gl */,
 				3DD13D0B17EF99CF00FA13BC /* grids */,
-				3DD13D1217EF99CF00FA13BC /* gui */,
-				3DD13D1517EF99CF00FA13BC /* objects */,
 				3DD13D1C17EF99CF00FA13BC /* simulators */,
 				3DD13D2717EF99CF00FA13BC /* UIClass.cpp */,
 				3DD13D2817EF99CF00FA13BC /* UIClass.h */,
@@ -625,8 +613,6 @@
 				3DD13D0317EF99CF00FA13BC /* UILight.h */,
 				3DD13D0417EF99CF00FA13BC /* UIMaterial.cpp */,
 				3DD13D0517EF99CF00FA13BC /* UIMaterial.h */,
-				3DD13D0617EF99CF00FA13BC /* UIPostRender.cpp */,
-				3DD13D0717EF99CF00FA13BC /* UIPostRender.h */,
 				3DD13D0817EF99CF00FA13BC /* UIShader.cpp */,
 				3DD13D0917EF99CF00FA13BC /* UIShader.h */,
 				3DD13D0A17EF99CF00FA13BC /* Uniform.h */,
@@ -645,28 +631,6 @@
 				3DD13D1117EF99CF00FA13BC /* UIGrid.h */,
 			);
 			path = grids;
-			sourceTree = "<group>";
-		};
-		3DD13D1217EF99CF00FA13BC /* gui */ = {
-			isa = PBXGroup;
-			children = (
-				3DD13D1417EF99CF00FA13BC /* DraggableRectangle.h */,
-				3DD13D1317EF99CF00FA13BC /* DraggableRectangle.cpp */,
-			);
-			path = gui;
-			sourceTree = "<group>";
-		};
-		3DD13D1517EF99CF00FA13BC /* objects */ = {
-			isa = PBXGroup;
-			children = (
-				3DD13D1617EF99CF00FA13BC /* Book.cpp */,
-				3DD13D1717EF99CF00FA13BC /* Book.h */,
-				3DD13D1817EF99CF00FA13BC /* Gear.cpp */,
-				3DD13D1917EF99CF00FA13BC /* Gear.h */,
-				3DD13D1A17EF99CF00FA13BC /* Page.cpp */,
-				3DD13D1B17EF99CF00FA13BC /* Page.h */,
-			);
-			path = objects;
 			sourceTree = "<group>";
 		};
 		3DD13D1C17EF99CF00FA13BC /* simulators */ = {
@@ -1419,7 +1383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD13DA517EF9EE900FA13BC /* DraggableCircle.cpp in Sources */,
-				3DD13D7717EF99CF00FA13BC /* DraggableRectangle.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				63b57ac5bf4ef088491e0317dbb2ecaa /* ofxXmlSettings.cpp in Sources */,
@@ -1445,6 +1408,7 @@
 				7e769097de6561633305b24c2ad560e7 /* ofxEasingQuint.cpp in Sources */,
 				3DD13DAE17EFB17800FA13BC /* CParticle.cpp in Sources */,
 				3DD13D7117EF99CF00FA13BC /* UILight.cpp in Sources */,
+				3DB0D1B917F0C0AC0050BF5E /* DraggableRectangle.cpp in Sources */,
 				3DD13DA217EF9E3C00FA13BC /* Circles.cpp in Sources */,
 				fe278f5f783581237ae8ecb25ea719bb /* ofxEasingSine.cpp in Sources */,
 				3DD13D6F17EF99CF00FA13BC /* UISuperBackground.cpp in Sources */,
@@ -1457,7 +1421,6 @@
 				3DD13D7017EF99CF00FA13BC /* UIFog.cpp in Sources */,
 				3DE1B59417C928BB0066D375 /* ofxHotKeys_impl_win.cpp in Sources */,
 				3DD13D8017EF99CF00FA13BC /* UIClass.cpp in Sources */,
-				3DD13D7817EF99CF00FA13BC /* Book.cpp in Sources */,
 				3DE1B59517C928BB0066D375 /* ofxRemoveCocoaMenu.mm in Sources */,
 				3DE1B59617C928BB0066D375 /* ofxTimeline.cpp in Sources */,
 				3DE1B59717C928BB0066D375 /* ofxTLAudioTrack.cpp in Sources */,
@@ -1471,12 +1434,10 @@
 				3DE1B59E17C928BB0066D375 /* ofxTLEmptyTrack.cpp in Sources */,
 				3DE1B59F17C928BB0066D375 /* ofxTLFlags.cpp in Sources */,
 				3DD13D7B17EF99CF00FA13BC /* Boid.cpp in Sources */,
-				3DD13D7317EF99CF00FA13BC /* UIPostRender.cpp in Sources */,
 				3DE1B5A017C928BB0066D375 /* ofxTLImageSequence.cpp in Sources */,
 				3DE1B5A117C928BB0066D375 /* ofxTLImageSequenceFrame.cpp in Sources */,
 				3DD13D7E17EF99CF00FA13BC /* Spring.cpp in Sources */,
 				3DE1B5A217C928BB0066D375 /* ofxTLImageTrack.cpp in Sources */,
-				3DD13D7917EF99CF00FA13BC /* Gear.cpp in Sources */,
 				3DE1B5A317C928BB0066D375 /* ofxTLInOut.cpp in Sources */,
 				3DD13D7F17EF99CF00FA13BC /* SuperParticle.cpp in Sources */,
 				3DE1B5A417C928BB0066D375 /* ofxTLKeyframes.cpp in Sources */,
@@ -1506,7 +1467,6 @@
 				3DE1B60E17C92A2F0066D375 /* ofxRParticle.cpp in Sources */,
 				3DE1B60F17C92A2F0066D375 /* ofxRParticleGlowieRenderer.cpp in Sources */,
 				3DE1B61017C92A2F0066D375 /* ofxRParticleRenderer.cpp in Sources */,
-				3DD13D7A17EF99CF00FA13BC /* Page.cpp in Sources */,
 				3DE1B61117C92A2F0066D375 /* ofxRParticleSystem.cpp in Sources */,
 				3DE1B61217C92A2F0066D375 /* ofxSolver.cpp in Sources */,
 				3DE1B61317C92A2F0066D375 /* ofxSphericalAttractionBehavior.cpp in Sources */,

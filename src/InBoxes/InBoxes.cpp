@@ -113,7 +113,6 @@ void InBoxes::selfSetup(){
 
 void InBoxes::selfSetupGui(){
     
-    guiAdd( post );
 }
 
 void InBoxes::selfGuiEvent(ofxUIEventArgs &e){
@@ -304,9 +303,7 @@ void InBoxes::selfPostDraw(){
     if (bDebug){
         UITimeProject::selfPostDraw();
     } else {
-        post.begin();
         UIProject::selfPostDraw();
-        post.end();
     }
 }
 
