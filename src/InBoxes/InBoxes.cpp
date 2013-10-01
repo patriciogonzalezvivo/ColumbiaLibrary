@@ -221,7 +221,7 @@ void InBoxes::selfDraw(){
         
         ofPushMatrix();
         ofPushStyle();
-        mat->begin();
+        materials["MATERIAL 1"]->begin();
         
         drawBrakets(ofRectangle(-totalWith*0.5,-totalHeight*0.5,totalWith,totalHeight), 15,10);
         
@@ -248,7 +248,7 @@ void InBoxes::selfDraw(){
         ofPopStyle();
         glEnd();
         
-        mat->end();
+        materials["MATERIAL 1"]->end();
         ofPopStyle();
         ofPopMatrix();
     }

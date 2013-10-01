@@ -194,7 +194,7 @@ void Circles::selfDraw(){
         
         ofPushMatrix();
         ofPushStyle();
-        mat->begin();
+        materials["MATERIAL 1"]->begin();
         
         {
             ofSetColor(255);
@@ -236,7 +236,7 @@ void Circles::selfDraw(){
             ofPopStyle();
         }
     
-        mat->end();
+        materials["MATERIAL 1"]->end();
         ofPopStyle();
         ofPopMatrix();
     }

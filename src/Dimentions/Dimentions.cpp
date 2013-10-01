@@ -349,7 +349,7 @@ void Dimentions::selfDraw(){
         
         ofPushMatrix();
         ofPushStyle();
-        mat->begin();
+        materials["MATERIAL 1"]->begin();
         
         //  Labels
         //
@@ -417,7 +417,7 @@ void Dimentions::selfDraw(){
         
         
         
-        mat->end();
+        materials["MATERIALS 1"]->end();
         ofPopStyle();
         ofPopMatrix();
     }
