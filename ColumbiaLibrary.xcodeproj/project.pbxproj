@@ -12,6 +12,8 @@
 		27765d1bff26bd9a6186915f24dfd27c /* ofxEasingCirc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = a4973cef438c8931b5e03e0a3b5d05b5 /* ofxEasingCirc.cpp */; };
 		2c1ed88a3466d1d2ac3da004863f86e4 /* ofxCameraSaveLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = feb2058e7166d8cdcfad557b94dad5e4 /* ofxCameraSaveLoad.cpp */; };
 		32fc7731c1ef7b87e491c93d78c84b88 /* ofxTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497f252390399fcf843297da0271f914 /* ofxTween.cpp */; };
+		3D25BB4C180DEE0D0087C248 /* UI2DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D25BB48180DEE0D0087C248 /* UI2DProject.cpp */; };
+		3D25BB4D180DEE0D0087C248 /* UI3DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D25BB4A180DEE0D0087C248 /* UI3DProject.cpp */; };
 		3D51CC7F17D381EA00D5F5BF /* InBoxes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D51CC7A17D381EA00D5F5BF /* InBoxes.cpp */; };
 		3D51CC8417D3820700D5F5BF /* Dimentions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D51CC8217D3820700D5F5BF /* Dimentions.cpp */; };
 		3D57CEEB17E61A380092919E /* BookParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D57CEE517E61A380092919E /* BookParticle.cpp */; };
@@ -32,7 +34,6 @@
 		3DD13D7E17EF99CF00FA13BC /* Spring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D2317EF99CF00FA13BC /* Spring.cpp */; };
 		3DD13D7F17EF99CF00FA13BC /* SuperParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D2517EF99CF00FA13BC /* SuperParticle.cpp */; };
 		3DD13D8017EF99CF00FA13BC /* UIClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D2717EF99CF00FA13BC /* UIClass.cpp */; };
-		3DD13D8117EF99CF00FA13BC /* UIProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13D2917EF99CF00FA13BC /* UIProject.cpp */; };
 		3DD13DA217EF9E3C00FA13BC /* Circles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13DA017EF9E3C00FA13BC /* Circles.cpp */; };
 		3DD13DA517EF9EE900FA13BC /* DraggableCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13DA317EF9EE900FA13BC /* DraggableCircle.cpp */; };
 		3DD13DAE17EFB17800FA13BC /* CParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD13DAC17EFB17800FA13BC /* CParticle.cpp */; };
@@ -176,6 +177,10 @@
 		32bd050a579633adbca5af6b202f651b /* ofxUIWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIWidget.h; path = ../../../addons/ofxUI/src/ofxUIWidget.h; sourceTree = SOURCE_ROOT; };
 		334840ca6b3402c8c30cac4e645376bb /* ofxUIOFWrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIOFWrapper.h; path = ../../../addons/ofxUI/src/ofxUIOFWrapper.h; sourceTree = SOURCE_ROOT; };
 		34aa5dbaf88c8b757b46d40d80b9047b /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasingCubic.cpp; path = ../../../addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
+		3D25BB48180DEE0D0087C248 /* UI2DProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI2DProject.cpp; sourceTree = "<group>"; };
+		3D25BB49180DEE0D0087C248 /* UI2DProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI2DProject.h; sourceTree = "<group>"; };
+		3D25BB4A180DEE0D0087C248 /* UI3DProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI3DProject.cpp; sourceTree = "<group>"; };
+		3D25BB4B180DEE0D0087C248 /* UI3DProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI3DProject.h; sourceTree = "<group>"; };
 		3D51CC7A17D381EA00D5F5BF /* InBoxes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InBoxes.cpp; sourceTree = "<group>"; };
 		3D51CC7B17D381EA00D5F5BF /* InBoxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InBoxes.h; sourceTree = "<group>"; };
 		3D51CC8217D3820700D5F5BF /* Dimentions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dimentions.cpp; sourceTree = "<group>"; };
@@ -223,7 +228,6 @@
 		3DD13D2617EF99CF00FA13BC /* SuperParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperParticle.h; sourceTree = "<group>"; };
 		3DD13D2717EF99CF00FA13BC /* UIClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIClass.cpp; sourceTree = "<group>"; };
 		3DD13D2817EF99CF00FA13BC /* UIClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIClass.h; sourceTree = "<group>"; };
-		3DD13D2917EF99CF00FA13BC /* UIProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIProject.cpp; sourceTree = "<group>"; };
 		3DD13D2A17EF99CF00FA13BC /* UIProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProject.h; sourceTree = "<group>"; };
 		3DD13DA017EF9E3C00FA13BC /* Circles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circles.cpp; sourceTree = "<group>"; };
 		3DD13DA117EF9E3C00FA13BC /* Circles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circles.h; sourceTree = "<group>"; };
@@ -586,8 +590,11 @@
 				3DD13D1C17EF99CF00FA13BC /* simulators */,
 				3DD13D2717EF99CF00FA13BC /* UIClass.cpp */,
 				3DD13D2817EF99CF00FA13BC /* UIClass.h */,
-				3DD13D2917EF99CF00FA13BC /* UIProject.cpp */,
 				3DD13D2A17EF99CF00FA13BC /* UIProject.h */,
+				3D25BB48180DEE0D0087C248 /* UI2DProject.cpp */,
+				3D25BB49180DEE0D0087C248 /* UI2DProject.h */,
+				3D25BB4A180DEE0D0087C248 /* UI3DProject.cpp */,
+				3D25BB4B180DEE0D0087C248 /* UI3DProject.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1403,7 +1410,6 @@
 				59eeacb88f062457ff86492c078803bd /* ofxEasingExpo.cpp in Sources */,
 				152eaecabd008d84af7f27f83f4389c4 /* ofxEasingLinear.cpp in Sources */,
 				6d7b53ed56654abbf2ff13b127236c33 /* ofxEasingQuad.cpp in Sources */,
-				3DD13D8117EF99CF00FA13BC /* UIProject.cpp in Sources */,
 				85a41526fdfa1a8cdaee81f79de999b7 /* ofxEasingQuart.cpp in Sources */,
 				7e769097de6561633305b24c2ad560e7 /* ofxEasingQuint.cpp in Sources */,
 				3DD13DAE17EFB17800FA13BC /* CParticle.cpp in Sources */,
@@ -1458,6 +1464,7 @@
 				3DE1B60617C92A2F0066D375 /* ofxBehavior.cpp in Sources */,
 				3DD13D7C17EF99CF00FA13BC /* Flock.cpp in Sources */,
 				3DE1B60717C92A2F0066D375 /* ofxBufferEffectorBehavior.cpp in Sources */,
+				3D25BB4C180DEE0D0087C248 /* UI2DProject.cpp in Sources */,
 				3DE1B60817C92A2F0066D375 /* ofxDamperBehavior.cpp in Sources */,
 				3DE1B60917C92A2F0066D375 /* ofxDistorterBehavior.cpp in Sources */,
 				3DE1B60A17C92A2F0066D375 /* ofxElectroStaticBehavior.cpp in Sources */,
@@ -1465,6 +1472,7 @@
 				3DE1B60C17C92A2F0066D375 /* ofxHomingBehavior.cpp in Sources */,
 				3DE1B60D17C92A2F0066D375 /* ofxPerlinBehavior.cpp in Sources */,
 				3DE1B60E17C92A2F0066D375 /* ofxRParticle.cpp in Sources */,
+				3D25BB4D180DEE0D0087C248 /* UI3DProject.cpp in Sources */,
 				3DE1B60F17C92A2F0066D375 /* ofxRParticleGlowieRenderer.cpp in Sources */,
 				3DE1B61017C92A2F0066D375 /* ofxRParticleRenderer.cpp in Sources */,
 				3DE1B61117C92A2F0066D375 /* ofxRParticleSystem.cpp in Sources */,
