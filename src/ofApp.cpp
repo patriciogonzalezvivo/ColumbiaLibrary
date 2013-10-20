@@ -39,13 +39,6 @@ void ofApp::keyPressed(int key){
         project->stop();
         project = NULL;
         
-        project = new Circles();
-        project->setup();
-        project->play();
-    } else if( key == OF_KEY_F4){
-        project->stop();
-        project = NULL;
-        
         project = new Glyphs();
         project->setup();
         project->play();

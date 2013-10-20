@@ -18,14 +18,17 @@ public:
     
     Connection();
     
-    void makeGlyph(vector<Subject> &_subjects, float &_freqscale);
-    void draw();
+    void    getPoints(vector<ofVec3f> &_pnts, float _size);
+    
+    void    makeGlyph(vector<Subject> &_subjects, float &_freqscale);
+    void    draw();
     
     vector<ofPoint> lines;
     vector<int>     subIx;
     
     ofColor color;
     int     freq;
+    float   radius;
     
 private:
     float     *freqscale;

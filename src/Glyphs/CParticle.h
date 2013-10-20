@@ -16,4 +16,5 @@ public:
     
     ofPoint networkPos;
     ofPoint destinyPos;
+    float   destinyRadius;
 };

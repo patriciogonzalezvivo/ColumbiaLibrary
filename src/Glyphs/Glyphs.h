@@ -12,10 +12,12 @@
 
 #include "Subject.h"
 #include "Connection.h"
+#include "CParticle.h"
 
 #define MAX_LEVELS 10
+#define TOTAL_PARTICLES 50000
 
-class Glyphs : public UI2DProject{ // UITimeProject {
+class Glyphs : public UI3DProject{ // UITimeProject {
 public:
     
     string getSystemName(){
@@ -59,6 +61,7 @@ public:
     
 protected:
     void loadStuff();
+    void createParticles();
     
     vector<Subject> subjects;
     vector<Connection> connections;
@@ -66,4 +69,25 @@ protected:
     float radius_levels[MAX_LEVELS];
     float freqscale;
 
+    ofImage                 colorSampleImage;
+    
+    //  Particles ( Books )
+    //
+    vector<CParticle*>      particles;
+    ofFloatColor            particlesTintColor;
+    ofxUIImageSampler*      particlesColorSampler;
+    
+    ofPoint                 globalOffset;
+    float                   speed;
+    float                   turbulence,neigbordhood,independence;
+    float                   networkAttraction,destinyAttraction;
+    
+    ofVbo                   spriteVBO;
+    ofShader                spriteShader;
+    ofTexture               spriteTexture;
+    ofVec3f*                spritePositions;
+    ofFloatColor*           spriteColors;
+    float                   spriteSize,spriteSizeMin,spriteSizeMax,spriteFocusDistance,spriteFocusAperture;
+    int                     spriteIndexCount;
+    int                     spriteNextIndex;
 };

@@ -10,3 +10,38 @@
     <Name>DEBUG</Name>
     <Value>0</Value>
 </Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Scale</Name>
+    <Value>11.871921539</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>speed</Name>
+    <Value>0.986699522</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>turbulence</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>neigbordhood</Name>
+    <Value>1.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>independence</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>attraction_destiny</Name>
+    <Value>1.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>attraction_network</Name>
+    <Value>0.000000000</Value>
+</Widget>

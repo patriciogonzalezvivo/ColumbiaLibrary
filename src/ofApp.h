@@ -5,7 +5,6 @@
 
 #include "InBoxes.h"
 #include "Dimentions.h"
-#include "Circles.h"
 #include "Glyphs.h"
 
 class ofApp : public ofBaseApp{

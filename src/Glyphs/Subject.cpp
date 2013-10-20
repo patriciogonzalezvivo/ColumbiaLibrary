@@ -9,7 +9,7 @@
 #include "Subject.h"
 
 Subject::Subject(){
-    color = ofColor(0, 204, 0, 150);
+    color = ofColor(50, 150);
     bSelected = false;
 }
 
@@ -23,6 +23,8 @@ void Subject::draw(){
     } else {
         ofSetColor(color,150);
     }
+    
+    ofNoFill();
     ofEllipse(*this, circle_radius, circle_radius);
     
     ofDrawBitmapString(ofToString(nId) + " " + name, *this);
