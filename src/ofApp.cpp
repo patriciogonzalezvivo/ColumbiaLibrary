@@ -4,7 +4,7 @@
 void ofApp::setup(){
     ofSetVerticalSync(true);
 	
-    project = new Circles();
+    project = new Glyphs();
     project->setup();
     project->play();
 }
@@ -21,25 +21,32 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    if( key == '1'){
+    if( key == OF_KEY_F1){
         project->stop();
         project = NULL;
         
         project = new InBoxes();
         project->setup();
         project->play();
-    } else if( key == '2'){
+    } else if( key == OF_KEY_F2){
         project->stop();
         project = NULL;
         
         project = new Dimentions();
         project->setup();
         project->play();
-    } else if( key == '3'){
+    } else if( key == OF_KEY_F3){
         project->stop();
         project = NULL;
         
         project = new Circles();
+        project->setup();
+        project->play();
+    } else if( key == OF_KEY_F4){
+        project->stop();
+        project = NULL;
+        
+        project = new Glyphs();
         project->setup();
         project->play();
     }

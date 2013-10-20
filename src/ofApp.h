@@ -1,11 +1,12 @@
 #pragma once
 
 #include "ofMain.h"
-#include "UIProject.h"
+#include "UI2DProject.h"
 
 #include "InBoxes.h"
 #include "Dimentions.h"
 #include "Circles.h"
+#include "Glyphs.h"
 
 class ofApp : public ofBaseApp{
 public:
@@ -23,5 +24,5 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-    UIProject* project;
+    UI2DProject* project;
 };

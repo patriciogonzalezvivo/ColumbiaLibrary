@@ -17,7 +17,7 @@ Category::Category(){
 }
 
 bool Category::loadSettings(string _fileConfig){
-    DraggableRectangle::loadSettings( _fileConfig );
+    DraggableRectangle2::loadSettings( _fileConfig );
 }
 
 bool Category::loadSettings(int _num, string _fileConfig){
@@ -79,7 +79,7 @@ void Category::draw(bool _bEdit){
     
     if ( _bEdit ){
         ofPushMatrix();
-        DraggableRectangle::draw();
+        DraggableRectangle2::draw();
         ofPopMatrix();
     } else {
         ofPushStyle();

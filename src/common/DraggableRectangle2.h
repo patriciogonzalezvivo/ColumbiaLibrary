@@ -11,7 +11,7 @@
 #include "ofMain.h"
 #include "ofxXmlSettings.h"
 
-class DraggableRectangle: public ofRectangle{
+class DraggableRectangle2: public ofRectangle{
 public:
     
     bool    loadSettings(string _fileConfig);

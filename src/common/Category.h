@@ -7,9 +7,9 @@
 //
 
 #pragma once
-#include "DraggableRectangle.h"
+#include "DraggableRectangle2.h"
 
-class Category : public DraggableRectangle {
+class Category : public DraggableRectangle2 {
 public:
     Category();
     

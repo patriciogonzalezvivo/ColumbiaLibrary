@@ -2,9 +2,9 @@
 //  DraggableRectangle.cpp
 //
 
-#include "DraggableRectangle.h"
+#include "DraggableRectangle2.h"
 
-bool DraggableRectangle::loadSettings(string _fileConfig){
+bool DraggableRectangle2::loadSettings(string _fileConfig){
     bool fileFound = false;
     
     ofxXmlSettings XML;
@@ -24,7 +24,7 @@ bool DraggableRectangle::loadSettings(string _fileConfig){
     return fileFound;
 }
 
-bool DraggableRectangle::loadSettings(int _num, string _fileConfig){
+bool DraggableRectangle2::loadSettings(int _num, string _fileConfig){
     bool fileFound = false;
     
     ofxXmlSettings XML;
@@ -44,7 +44,7 @@ bool DraggableRectangle::loadSettings(int _num, string _fileConfig){
     return fileFound;
 }
 
-bool DraggableRectangle::loadSettings(string _name, string _fileConfig){
+bool DraggableRectangle2::loadSettings(string _name, string _fileConfig){
     bool fileFound = false;
     name = _name;
     
@@ -72,7 +72,7 @@ bool DraggableRectangle::loadSettings(string _name, string _fileConfig){
     return fileFound;
 }
 
-bool DraggableRectangle::saveSettings(string _fileConfig){
+bool DraggableRectangle2::saveSettings(string _fileConfig){
     bool fileFound = false;
     
     ofxXmlSettings XML;
@@ -97,7 +97,7 @@ bool DraggableRectangle::saveSettings(string _fileConfig){
     return fileFound;
 }
 
-bool DraggableRectangle::saveSettings(int _num, string _fileConfig){
+bool DraggableRectangle2::saveSettings(int _num, string _fileConfig){
     bool fileFound = false;
     
     ofxXmlSettings XML;
@@ -116,7 +116,7 @@ bool DraggableRectangle::saveSettings(int _num, string _fileConfig){
     return fileFound;
 }
 
-bool DraggableRectangle::saveSettings(string _name, string _fileConfig){
+bool DraggableRectangle2::saveSettings(string _name, string _fileConfig){
     bool fileFound = false;
     
     ofxXmlSettings XML;
@@ -142,7 +142,7 @@ bool DraggableRectangle::saveSettings(string _name, string _fileConfig){
     return fileFound;
 }
 
-void DraggableRectangle::draw(){
+void DraggableRectangle2::draw(){
     
     ofPushStyle();
     ofPushMatrix();
@@ -166,7 +166,7 @@ void DraggableRectangle::draw(){
     
 }
 
-void DraggableRectangle::drawBrakets(ofRectangle _rect, float size, float margin){
+void DraggableRectangle2::drawBrakets(ofRectangle _rect, float size, float margin){
     
     ofPushStyle();
     
@@ -197,7 +197,7 @@ void DraggableRectangle::drawBrakets(ofRectangle _rect, float size, float margin
     ofPopStyle();
 }
 
-void DraggableRectangle::mouseDragged(ofPoint _mouse){
+void DraggableRectangle2::mouseDragged(ofPoint _mouse){
     ofPoint A = ofPoint(x,y);
     ofPoint B = ofPoint(x+width,y+height);
     
