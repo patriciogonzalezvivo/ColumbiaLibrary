@@ -12,9 +12,13 @@ bool sortSubject(  Subject *a, Subject *b ) {
 	return a->locOrder < b->locOrder;
 }
 
+bool sortConnection(  Connection *a, Connection *b ) {
+	return a->angle < b->angle;
+}
+
 void Glyphs::selfSetup(){
-//    ofEnableSmoothing();
-//    ofEnableAntiAliasing();
+    ofEnableSmoothing();
+    ofEnableAntiAliasing();
     ofEnableAlphaBlending();
   
     radius_levels[0] = 0;
@@ -139,6 +143,7 @@ void Glyphs::selfBegin(){
                     }
                     counters[ subCon.size() ]++;
                     c->freq = ofToInt(value[1]);
+                    c->nId = counter;
                     connections.push_back(c);
                 }
                 counter++;
@@ -291,7 +296,20 @@ void Glyphs::selfExit(){
 }
 
 void Glyphs::selfKeyPressed(ofKeyEventArgs & args){
-	
+	if(args.key == 'p'){
+        for(int i = 0; i < connections.size();i++){
+            connections[i]->angle = atan2(connections[i]->y,connections[i]->x);
+        }
+        sort(connections.begin(), connections.end(), sortConnection);
+        
+        ofBuffer buffer;
+        for(int i = 0; i < connections.size();i++){
+            buffer.append(ofToString(connections[i]->nId)+","+ofToString(connections[i]->angle)+"\n");
+        }
+        
+        ofBufferToFile(getDataPath()+"sorted.csv", buffer);
+        
+    }
 }
 
 void Glyphs::selfKeyReleased(ofKeyEventArgs & args){

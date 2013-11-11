@@ -29,7 +29,9 @@ public:
     
     ofColor color;
     ofPoint origin;
+    float   angle;
     int     freq;
+    int     nId;
     
     bool    bHover;
     bool    bSelected;

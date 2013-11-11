@@ -2,8 +2,8 @@
     <Kind>42</Kind>
     <Name>LOG</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>39.000000000</XPosition>
-    <YPosition>364.000000000</YPosition>
+    <XPosition>1411.000000000</XPosition>
+    <YPosition>8.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -29,19 +29,4 @@
     <Kind>12</Kind>
     <Name>ADD</Name>
     <Value></Value>
-</Widget>
-<Widget>
-    <Kind>2</Kind>
-    <Name>change</Name>
-    <Value>1</Value>
-</Widget>
-<Widget>
-    <Kind>2</Kind>
-    <Name>close</Name>
-    <Value>1</Value>
-</Widget>
-<Widget>
-    <Kind>2</Kind>
-    <Name>test</Name>
-    <Value>1</Value>
 </Widget>

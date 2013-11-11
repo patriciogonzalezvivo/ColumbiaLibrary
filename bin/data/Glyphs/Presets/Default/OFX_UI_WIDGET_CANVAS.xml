@@ -13,7 +13,7 @@
 <Widget>
     <Kind>2</Kind>
     <Name>DEBUG</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>12</Kind>
@@ -22,11 +22,21 @@
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>Default</Name>
+    <Name>Circles</Name>
     <Value>1</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>Test</Name>
+    <Name>Default</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Network</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Visible</Name>
     <Value>0</Value>
 </Widget>

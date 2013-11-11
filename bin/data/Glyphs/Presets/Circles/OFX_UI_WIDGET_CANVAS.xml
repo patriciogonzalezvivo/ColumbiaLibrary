@@ -18,10 +18,25 @@
 <Widget>
     <Kind>12</Kind>
     <Name>ADD</Name>
-    <Value></Value>
+    <Value>Circles</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Circles</Name>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
     <Name>Default</Name>
     <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Network</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Visible</Name>
+    <Value>1</Value>
 </Widget>
