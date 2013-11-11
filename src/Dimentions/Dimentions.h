@@ -12,7 +12,7 @@ public:
 		return "Dimentions";
 	}
     
-    void selfSetupGui();
+    void selfSetupGuis();
     void selfGuiEvent(ofxUIEventArgs &e);
     
     void selfSetupSystemGui();
@@ -69,7 +69,7 @@ protected:
     //  Books
     //
     void                    assignDataToBooks();
-    void                    orientBillBoard();
+//    void                    orientBillBoard();
     void                    drawLabel(ofPoint _loc, string _name);
     
     int                     TOTAL_OF_BOOKS;

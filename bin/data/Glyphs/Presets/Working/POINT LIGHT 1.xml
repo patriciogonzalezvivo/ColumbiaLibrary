@@ -3,7 +3,7 @@
     <Name>POINT LIGHT 1</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>195.000000000</YPosition>
+    <YPosition>283.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -13,60 +13,60 @@
 <Widget>
     <Kind>25</Kind>
     <Name>X</Name>
-    <Value>0.000000000</Value>
+    <Value>4.085205078</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>Y</Name>
-    <Value>0.000000000</Value>
+    <Value>-66.101623535</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>Z</Name>
+    <Value>629.085693359</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>aHUE</Name>
     <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>AR</Name>
-    <Value>1.000000000</Value>
+    <Name>aSAT</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>AG</Name>
-    <Value>1.000000000</Value>
+    <Name>aBRI</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>AB</Name>
-    <Value>1.000000000</Value>
+    <Name>dHUE</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>DR</Name>
-    <Value>1.000000000</Value>
+    <Name>dSAT</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>DG</Name>
-    <Value>1.000000000</Value>
+    <Name>dBRI</Name>
+    <Value>0.968586385</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>DB</Name>
-    <Value>1.000000000</Value>
+    <Name>sHUE</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>SR</Name>
-    <Value>1.000000000</Value>
+    <Name>sSAT</Name>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
-    <Name>SG</Name>
-    <Value>1.000000000</Value>
-</Widget>
-<Widget>
-    <Kind>25</Kind>
-    <Name>SB</Name>
-    <Value>1.000000000</Value>
+    <Name>sBRI</Name>
+    <Value>0.000000000</Value>
 </Widget>

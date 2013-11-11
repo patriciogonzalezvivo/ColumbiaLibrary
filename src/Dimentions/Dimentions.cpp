@@ -13,7 +13,6 @@ bool sortByCategory(  BookParticle * a, BookParticle * b ) {
 	return a->category < b->category;
 }
 
-
 void Dimentions::selfSetup(){
     ofEnableAlphaBlending();
     ofEnableSmoothing();
@@ -183,8 +182,8 @@ void Dimentions::assignDataToBooks(){
     booksWithTags.push_back(books[0]);
 }
 
-void Dimentions::selfSetupGui(){
-    
+void Dimentions::selfSetupGuis(){
+    backgroundSet(new UISuperBackground());
 }
 
 void Dimentions::selfGuiEvent(ofxUIEventArgs &e){
@@ -215,9 +214,9 @@ void Dimentions::guiSystemEvent(ofxUIEventArgs &e){
     
     if (name == "DEBUG"){
         if (bDebug){
-            cam.disableMouseInput();
+            camera.disableMouseInput();
             timeline->stop();
-            isPlaying = false;
+            bPlaying = false;
         } else {
             
             for(int i = 0; i < categories.size(); i++){
@@ -226,7 +225,7 @@ void Dimentions::guiSystemEvent(ofxUIEventArgs &e){
             
             assignDataToBooks();
             
-            cam.enableMouseInput();
+            camera.enableMouseInput();
         }
     }
 }
@@ -248,7 +247,7 @@ void Dimentions::selfSetupRenderGui(){
     rdrGui->addSlider("Categories_Color_Alpha", 0.0, 1.0, &categoriesTintColor.a);
     
     categoriesNodesColorSampler = rdrGui->addImageSampler("Categories_Nodes_Color_Tint", &colorSampleImage, (float)colorSampleImage.getWidth()/2, (float)colorSampleImage.getHeight()/2 );
-    rdrGui->addSlider("Categories_Nodes_Color_Alpha", 0.0, 1.0, &categoriesNodesTintColor.a);
+    rdrGui->addSlider("Categories_Nodes_Alpha", 0.0, 1.0, &categoriesNodesTintColor.a);
 }
 
 void Dimentions::guiRenderEvent(ofxUIEventArgs &e){
@@ -310,13 +309,13 @@ void Dimentions::selfUpdate(){
                 books[i]->applyFlockingForce(&globalOffset,neigbordhood,independence);
             
             if (originAttraction>0.0)
-                books[i]->applyGravityForceTo( &books[i]->origin , originAttraction);
+                books[i]->addSlowdonForceTo( books[i]->origin , originAttraction);
             
             if(destinyAttraction>0.0)
-                books[i]->applyGravityForceTo( &books[i]->destiny , destinyAttraction);
+                books[i]->addSlowdonForceTo( books[i]->destiny , destinyAttraction);
             
             if(networkAttraction>0.0)
-                books[i]->applyGravityForceTo( &books[i]->networkPos , networkAttraction);
+                books[i]->addSlowdonForceTo( books[i]->networkPos , networkAttraction);
             
             if(subjectsAttraction>0.0)
                 books[i]->applyAttractionToNodes(subjectsAttraction);
@@ -396,8 +395,8 @@ void Dimentions::selfDraw(){
             spriteTexture.bind();
             
             spriteShader.setUniformTexture("tex", spriteTexture, 0);
-            spriteShader.setUniform1f("nearClip", cam.getNearClip());
-            spriteShader.setUniform1f("farClip", cam.getFarClip());
+            spriteShader.setUniform1f("nearClip", getCameraRef().getNearClip());
+            spriteShader.setUniform1f("farClip", getCameraRef().getFarClip());
             spriteShader.setUniform1f("size",spriteSize);
             spriteShader.setUniform1f("minPointSize", 1.0);//spriteSizeMin);
             spriteShader.setUniform1f("maxPointSize", spriteSizeMax);
@@ -414,10 +413,8 @@ void Dimentions::selfDraw(){
             glDepthMask(GL_TRUE);
             ofEnableArbTex();
         }
-        
-        
-        
-        materials["MATERIALS 1"]->end();
+
+        materials["MATERIAL 1"]->end();
         ofPopStyle();
         ofPopMatrix();
     }
@@ -496,7 +493,7 @@ void Dimentions::drawLabel(ofPoint _loc, string _text){
     ofPushStyle();
     
     ofTranslate(_loc);
-	orientBillBoard();
+	camera.billboard();
     
 	// DRAW
     ofSetColor(bookTextColor);
@@ -514,24 +511,24 @@ void Dimentions::drawLabel(ofPoint _loc, string _text){
 	ofPopMatrix();
 }
 
-void Dimentions::orientBillBoard(){
-    ofVec3f objectLookAt = ofVec3f(0,0,1);
-	
-    ofVec3f objToCam = cam.getGlobalPosition();
-    
-	objToCam.normalize();
-	float theta = objectLookAt.angle(objToCam);
-	
-	ofVec3f axisOfRotation = objToCam.crossed(objectLookAt);
-//	cout << " . " << axisOfRotation << endl;
-    axisOfRotation.normalize();
-//    cout << " Normaliced: " << axisOfRotation << endl;
-    
-	glRotatef(-zRot->getPos(), 0.0, 0.0, 1.0);
-	glRotatef(-yRot->getPos(), 0.0, 1.0, 0.0);
-	glRotatef(-xRot->getPos(), 1.0, 0.0, 0.0);
-	glRotatef(-theta, axisOfRotation.x, axisOfRotation.y, axisOfRotation.z);
-}
+//void Dimentions::orientBillBoard(){
+//    ofVec3f objectLookAt = ofVec3f(0,0,1);
+//	
+//    ofVec3f objToCam = camera.getGlobalPosition();
+//    
+//	objToCam.normalize();
+//	float theta = objectLookAt.angle(objToCam);
+//	
+//	ofVec3f axisOfRotation = objToCam.crossed(objectLookAt);
+////	cout << " . " << axisOfRotation << endl;
+//    axisOfRotation.normalize();
+////    cout << " Normaliced: " << axisOfRotation << endl;
+//    
+////	glRotatef(-zRot->getPos(), 0.0, 0.0, 1.0);
+////	glRotatef(-yRot->getPos(), 0.0, 1.0, 0.0);
+////	glRotatef(-xRot->getPos(), 1.0, 0.0, 0.0);
+//	glRotatef(-theta, axisOfRotation.x, axisOfRotation.y, axisOfRotation.z);
+//}
 
 void Dimentions::selfEnd(){
 //	for(int i = books.size()-1; i >= 0; i++){
@@ -578,6 +575,6 @@ void Dimentions::selfMousePressed(ofMouseEventArgs& data){
 
 void Dimentions::selfMouseReleased(ofMouseEventArgs& data){
 	if (bDebug){
-        cam.disableMouseInput();
+        camera.disableMouseInput();
     }
 }

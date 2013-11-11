@@ -9,28 +9,31 @@
 #pragma once
 
 #include "ofMain.h"
+#include "Particle.h"
 #include "Subject.h"
 
 #define MIN_LINE 8.0
 
-class Connection : public ofPoint {
+class Connection : public Particle {
 public:
     
     Connection();
     
     void    getPoints(vector<ofVec3f> &_pnts, float _size);
+    void    makeGlyph(vector<Subject*> &_subjects);
     
-    void    makeGlyph(vector<Subject> &_subjects, float &_freqscale);
-    void    draw();
+    void    draw(ofTexture &_tex);
+    void    drawLines(bool _clamp);
     
-    vector<ofPoint> lines;
     vector<int>     subIx;
     
     ofColor color;
+    ofPoint origin;
     int     freq;
-    float   radius;
+    
+    bool    bHover;
+    bool    bSelected;
     
 private:
-    float     *freqscale;
-    vector<Subject> *subjects;
+    vector<Subject*> subCon;
 };

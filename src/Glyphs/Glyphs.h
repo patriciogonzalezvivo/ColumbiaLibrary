@@ -8,10 +8,15 @@
 
 #pragma once
 
+#include "UI3DGrid.h"
 #include "UITimeProject.h"
+
+#include "Particle.h"
+#include "Spring.h"
 
 #include "Subject.h"
 #include "Connection.h"
+
 #include "CParticle.h"
 
 #define MAX_LEVELS 10
@@ -24,7 +29,7 @@ public:
 		return "Glyphs";
 	}
     
-    void selfSetupGui();
+    void selfSetupGuis();
     void selfGuiEvent(ofxUIEventArgs &e);
     
     void selfSetupSystemGui();
@@ -36,14 +41,10 @@ public:
     void selfSetup();
     
     void selfBegin();
-	void selfPresetLoaded(string presetPath);
-    void selfSceneTransformation();
 	
     void selfUpdate();
     
     void selfDraw();
-	void selfDrawDebug();
-	void selfDrawBackground();
     
     void selfDrawOverlay();
     void selfPostDraw();
@@ -54,40 +55,31 @@ public:
     void selfKeyPressed(ofKeyEventArgs & args);
     void selfKeyReleased(ofKeyEventArgs & args);
     
-    void selfMouseDragged(ofMouseEventArgs& data);
     void selfMouseMoved(ofMouseEventArgs& data);
     void selfMousePressed(ofMouseEventArgs& data);
+    void selfMouseDragged(ofMouseEventArgs& data);
+    void selfMouseDoublePressed(ofMouseEventArgs &data);
     void selfMouseReleased(ofMouseEventArgs& data);
     
+    
 protected:
-    void loadStuff();
-    void createParticles();
+    UI3DGrid    grid;
     
-    vector<Subject> subjects;
-    vector<Connection> connections;
+    ofImage     circle;
     
-    float radius_levels[MAX_LEVELS];
-    float freqscale;
+    Particle    center;
+    vector<Spring>  springsToCenter;
+    vector<Spring>  springsToSubjects;
+    vector<Subject*> subjects;
+    vector<Connection*> connections;
+    
+    ofColor colors_levels[MAX_LEVELS];
+    float   radius_levels[MAX_LEVELS];
+    float   freqscale;
+    float   forceToOrigin;
+    float   forceToCenter;
+    float   forceToClosest;
+    float   forceRepel;
+    float   speed;
 
-    ofImage                 colorSampleImage;
-    
-    //  Particles ( Books )
-    //
-    vector<CParticle*>      particles;
-    ofFloatColor            particlesTintColor;
-    ofxUIImageSampler*      particlesColorSampler;
-    
-    ofPoint                 globalOffset;
-    float                   speed;
-    float                   turbulence,neigbordhood,independence;
-    float                   networkAttraction,destinyAttraction;
-    
-    ofVbo                   spriteVBO;
-    ofShader                spriteShader;
-    ofTexture               spriteTexture;
-    ofVec3f*                spritePositions;
-    ofFloatColor*           spriteColors;
-    float                   spriteSize,spriteSizeMin,spriteSizeMax,spriteFocusDistance,spriteFocusAperture;
-    int                     spriteIndexCount;
-    int                     spriteNextIndex;
 };

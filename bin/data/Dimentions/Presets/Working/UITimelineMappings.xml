@@ -4,9 +4,9 @@
     <SliderCurves>
         <Mapping>
             <Widget>
-                <WidgetName>neigbordhood</WidgetName>
-                <WidgetID>11</WidgetID>
-                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
+                <WidgetName>Categories_Color_Alpha</WidgetName>
+                <WidgetID>22</WidgetID>
+                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
             </Widget>
             <Track></Track>
         </Mapping>
@@ -14,6 +14,14 @@
             <Widget>
                 <WidgetName>speed</WidgetName>
                 <WidgetID>6</WidgetID>
+                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
+                <WidgetName>neigbordhood</WidgetName>
+                <WidgetID>11</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
             </Widget>
             <Track></Track>
@@ -47,22 +55,6 @@
                 <WidgetName>attraction_subjects</WidgetName>
                 <WidgetID>22</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
-                <WidgetName>Categories_Color_Alpha</WidgetName>
-                <WidgetID>19</WidgetID>
-                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
-                <WidgetName>Categories_Nodes_Color_Alpha</WidgetName>
-                <WidgetID>23</WidgetID>
-                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
             </Widget>
             <Track></Track>
         </Mapping>

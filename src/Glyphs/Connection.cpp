@@ -10,11 +10,12 @@
 
 Connection::Connection(){
     color = ofColor(155, 0, 0, 150);
+    bHover = false;
+    bSelected = false;
 }
 
 void Connection::getPoints(vector<ofVec3f> &_pnts, float _size){
-    radius = (log(freq+2.0)*(*freqscale))*0.5;
-    
+    float radius = size;
     int totalRings = radius/_size;
     for (int i = 0; i < freq/10; i++) {
         int totalParticles = (2.0*PI*radius)/_size;
@@ -34,49 +35,64 @@ void Connection::getPoints(vector<ofVec3f> &_pnts, float _size){
     
 }
 
-void Connection::makeGlyph(vector<Subject> &_subjects, float &_freqscale){
-    subjects = &_subjects;
-    freqscale = &_freqscale;
-    
+void Connection::makeGlyph(vector<Subject*> &_subjects){
     for(int i = 0; i < subIx.size(); i++){
-        Subject s = _subjects[subIx[i]];
-        
-        radius = ( log(freq+2.0)* (*freqscale) )*0.5;
-        ofPoint diff = ofPoint(s)-ofPoint(*this);
-        diff.normalize();
-        
-        if ( radius < MIN_LINE ) {
-            diff *= MIN_LINE;
-        } else {
-            diff *= radius;
-        }
-        lines.push_back(diff);
+        Subject *s = _subjects[subIx[i]];
+        subCon.push_back(s);
     }
 }
 
-void Connection::draw(){
+void Connection::draw(ofTexture &_tex){
     ofPushStyle();
-    ofPoint mouse = ofPoint(ofGetMouseX(),ofGetMouseY());
-    radius = log(freq+2.0)* (*freqscale);
+    ofPushMatrix();
     
-    if( distance(mouse)<radius){
-        ofSetColor(color);
-        for(int i = 0; i < subIx.size(); i++){
-            (*subjects)[subIx[i]].bSelected = true;
-        }
+    if(bHover||bSelected){
+        ofTranslate(0, 0, 2);
+        ofSetColor(color,255);
     } else {
         ofSetColor(color,150);
     }
-    ofNoFill();
-    ofEllipse(*this, radius, radius);
-    
-    ofSetColor(100,200);
-    ofPushMatrix();
+    ofFill();
+//    ofEllipse(*this, size, size);
     ofTranslate(*this);
-    for(int i = 0; i < lines.size(); i++){
-        ofLine(ofPoint(0,0),lines[i]);
-    }
-    ofPopMatrix();
+    _tex.draw(-size*0.5, -size*0.5, size,size);
     
+    ofPopMatrix();
     ofPopStyle();
 }
+
+void Connection::drawLines(bool _clamp){
+    ofPushStyle();
+    
+    ofPushMatrix();
+    
+    ofTranslate(*this);
+    if(bHover||bSelected){
+        ofTranslate(0, 0, 4);
+        ofSetColor(0);
+    } else {
+        ofTranslate(0, 0, 2);
+        ofSetColor(0,150);
+    }
+    
+    for(int i = 0; i < subCon.size(); i++){
+        ofPoint diff = (*subCon[i])-ofPoint(*this);
+        
+        if(_clamp){
+            diff.normalize();
+            if ( size*0.5 < MIN_LINE ) {
+                diff *= MIN_LINE;
+            } else {
+                diff *= size*0.5;
+            }
+        } else {
+            subCon[i]->bSelected = bHover||bSelected;
+        }
+        
+        ofLine(ofPoint(0,0),diff);
+    }
+    ofPopMatrix();
+    ofPopStyle();
+
+}
+

@@ -1,14 +1,19 @@
 <Canvas>
     <Kind>42</Kind>
     <Name>BACKGROUND</Name>
-    <IsMinified>0</IsMinified>
-    <XPosition>282.000000000</XPosition>
-    <YPosition>89.000000000</YPosition>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>72.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>ENABLE</Name>
     <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>change_Speed</Name>
+    <Value>0.100000001</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>

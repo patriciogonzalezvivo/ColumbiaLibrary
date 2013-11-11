@@ -1,10 +1,15 @@
 <Canvas>
     <Kind>42</Kind>
     <Name>RenderSettings</Name>
-    <IsMinified>0</IsMinified>
-    <XPosition>213.000000000</XPosition>
-    <YPosition>1.000000000</YPosition>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>222.000000000</YPosition>
 </Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Sprites_size</Name>
@@ -58,7 +63,7 @@
 <Widget>
     <Kind>4</Kind>
     <Name>Categories_Color_Alpha</Name>
-    <Value>0.000000000</Value>
+    <Value>0.967837453</Value>
 </Widget>
 <Widget>
     <Kind>28</Kind>
@@ -72,6 +77,6 @@
 </Widget>
 <Widget>
     <Kind>4</Kind>
-    <Name>Categories_Nodes_Color_Alpha</Name>
-    <Value>0.926574469</Value>
+    <Name>Categories_Nodes_Alpha</Name>
+    <Value>1.000000000</Value>
 </Widget>

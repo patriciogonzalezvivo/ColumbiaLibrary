@@ -4,30 +4,6 @@
     <SliderCurves>
         <Mapping>
             <Widget>
-                <WidgetName>Group_D_Brigness</WidgetName>
-                <WidgetID>12</WidgetID>
-                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
-                <WidgetName>Particles_Atraction</WidgetName>
-                <WidgetID>14</WidgetID>
-                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
-                <WidgetName>Particles_Turbulence</WidgetName>
-                <WidgetID>16</WidgetID>
-                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
                 <WidgetName>Group_A_Brigness</WidgetName>
                 <WidgetID>6</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
@@ -46,6 +22,30 @@
             <Widget>
                 <WidgetName>Group_C_Brigness</WidgetName>
                 <WidgetID>10</WidgetID>
+                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
+                <WidgetName>Group_D_Brigness</WidgetName>
+                <WidgetID>12</WidgetID>
+                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
+                <WidgetName>Particles_Atraction</WidgetName>
+                <WidgetID>14</WidgetID>
+                <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
+                <WidgetName>Particles_Turbulence</WidgetName>
+                <WidgetID>16</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
             </Widget>
             <Track></Track>

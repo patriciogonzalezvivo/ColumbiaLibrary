@@ -1,21 +1,20 @@
-code	subject	x	y	freq
-1	Claims	1050	650	151144
-2	Legislative amendments	1000	600	102146
-3	United States	950	650	62719
-4	Military pensions	900	600	61782
-5	Architecture	50	650	51941
-6	Women	800	175	46274
-7	World War 1939-1945	750	200	38089
-8	Disabled veterans	700	600	37412
-9	Jews	650	250	31142
-10	Education	600	275	29096
-11	Music	550	300	29077
-12	Art	75	600	28979
-13	Agriculture	450	350	28745
-14	Survivors' benefits	400	375	24317
-15	Missions	350	400	23381
-16	World War 1914-1918	300	425	22518
-17	Geology	250	450	22266
-18	English language	200	475	20292
-19	Science	150	500	20258
-20	City planning	200	650	19543
+1	Claims	151144	6
+2	Legislative amendments	102146	2
+3	United States	62719	5
+4	Military pensions	61782	4
+5	Architecture	51941	9
+6	Women	46274	16
+7	World War 1939-1945	38089	19
+8	Disabled veterans	37412	3
+9	Jews	31142	20
+10	Education	29096	11
+11	Music	29077	8
+12	Art	28979	7
+13	Agriculture	28745	14
+14	Survivors' benefits	24317	1
+15	Missions	23381	17
+16	World War 1914-1918	22518	18
+17	Geology	22266	13
+18	English language	20292	12
+19	Science	20258	15
+20	City planning	19543	10

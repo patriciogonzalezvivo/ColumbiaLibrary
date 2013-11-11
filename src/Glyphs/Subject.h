@@ -8,8 +8,10 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxUI.h"
+#include "Particle.h"
 
-class Subject : public ofPoint {
+class Subject : public Particle {
 public:
 
     Subject();
@@ -17,11 +19,11 @@ public:
     void draw();
     
     string  name;
-    
     ofColor color;
     
     float   *freqscale;
-    int     nId, freq;
+    int     nId, freq, locOrder;
     bool    bSelected;
 
+    ofxUIFont    *font;
 };

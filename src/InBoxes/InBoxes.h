@@ -12,7 +12,7 @@ public:
 		return "InBoxes";
 	}
     
-    void selfSetupGui();
+    void selfSetupGuis();
     void selfGuiEvent(ofxUIEventArgs &e);
     
     void selfSetupSystemGui();

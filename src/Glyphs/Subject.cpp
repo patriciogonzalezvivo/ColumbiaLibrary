@@ -16,18 +16,27 @@ Subject::Subject(){
 void Subject::draw(){
     ofPushStyle();
     
-    float circle_radius = log(freq+2.0)* (*freqscale);
-    
     if(bSelected){
-        ofSetColor(color);
+        ofSetColor(color,255);
     } else {
-        ofSetColor(color,150);
+        ofSetColor(color,100);
     }
     
     ofNoFill();
-    ofEllipse(*this, circle_radius, circle_radius);
+    ofEllipse(*this, size, size);
     
-    ofDrawBitmapString(ofToString(nId) + " " + name, *this);
+    ofPushMatrix();
+    float angle = atan2(y,x);
+    float disp = size;
+    ofTranslate(*this);
+    if(angle > HALF_PI || angle < -HALF_PI){
+        angle += PI;
+        disp *= -1;
+        disp -= font->getStringBoundingBox(ofToString(nId) + " " + name, 0, 0).width;
+    }
+    ofRotateZ(ofRadToDeg(angle));
+    font->drawString(ofToString(nId) + " " + name, disp, 0);
+    ofPopMatrix();
     
     ofPopStyle();
 }

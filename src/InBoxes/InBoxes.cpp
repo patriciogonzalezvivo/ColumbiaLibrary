@@ -111,8 +111,8 @@ void InBoxes::selfSetup(){
     
 }
 
-void InBoxes::selfSetupGui(){
-    
+void InBoxes::selfSetupGuis(){
+    backgroundSet(new UISuperBackground());
 }
 
 void InBoxes::selfGuiEvent(ofxUIEventArgs &e){
@@ -134,9 +134,9 @@ void InBoxes::guiSystemEvent(ofxUIEventArgs &e){
     
     if (name == "DEBUG"){
         if (bDebug){
-            cam.disableMouseInput();
+            camera.disableMouseInput();
             timeline->stop();
-            isPlaying = false;
+            bPlaying = false;
         } else {
             
             //  Clean final destinations
@@ -168,7 +168,7 @@ void InBoxes::guiSystemEvent(ofxUIEventArgs &e){
                     }
                 }
             }
-            cam.enableMouseInput();
+            camera.enableMouseInput();
         }
     }
 }
@@ -241,7 +241,6 @@ void InBoxes::selfDraw(){
         glBegin(GL_POINTS);
         ofPushStyle();
         glPointSize(50);
-        
         for (int i = 0; i < publicBooks.size(); i++) {
             glVertex3f(publicBooks[i].x,publicBooks[i].y,publicBooks[i].z);
         }
@@ -378,6 +377,6 @@ void InBoxes::selfMousePressed(ofMouseEventArgs& data){
 
 void InBoxes::selfMouseReleased(ofMouseEventArgs& data){
 	if (bDebug){
-        cam.disableMouseInput();
+        camera.disableMouseInput();
     }
 }
