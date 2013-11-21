@@ -240,7 +240,7 @@ void Glyphs::selfUpdate(){
 }
 
 void Glyphs::selfDraw(){
-    
+    glDepthMask(false);
     ofPushMatrix();
     ofPushStyle();
     materials["MATERIAL 1"]->begin();
@@ -268,6 +268,7 @@ void Glyphs::selfDraw(){
     materials["MATERIAL 1"]->end();
     ofPopStyle();
     ofPopMatrix();
+    glDepthMask(true);
 }
 
 void Glyphs::selfDrawOverlay(){

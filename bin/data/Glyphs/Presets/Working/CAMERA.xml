@@ -2,8 +2,8 @@
     <Kind>42</Kind>
     <Name>CAMERA</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>1464.000000000</XPosition>
-    <YPosition>120.000000000</YPosition>
+    <XPosition>1365.000000000</XPosition>
+    <YPosition>85.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -24,6 +24,11 @@
     <Kind>12</Kind>
     <Name>ADD</Name>
     <Value></Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Gustavo</Name>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>

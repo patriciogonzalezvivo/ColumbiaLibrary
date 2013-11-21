@@ -4,6 +4,14 @@
     <SliderCurves>
         <Mapping>
             <Widget>
+                <WidgetName>Categories_Color_Alpha</WidgetName>
+                <WidgetID>22</WidgetID>
+                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
                 <WidgetName>speed</WidgetName>
                 <WidgetID>6</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
@@ -47,14 +55,6 @@
                 <WidgetName>attraction_subjects</WidgetName>
                 <WidgetID>22</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>
-            </Widget>
-            <Track></Track>
-        </Mapping>
-        <Mapping>
-            <Widget>
-                <WidgetName>Categories_Color_Alpha</WidgetName>
-                <WidgetID>22</WidgetID>
-                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
             </Widget>
             <Track></Track>
         </Mapping>
