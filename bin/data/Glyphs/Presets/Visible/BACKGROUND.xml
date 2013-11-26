@@ -1,9 +1,9 @@
 <Canvas>
     <Kind>42</Kind>
     <Name>BACKGROUND</Name>
-    <IsMinified>0</IsMinified>
+    <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>358.000000000</YPosition>
+    <YPosition>372.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -13,7 +13,7 @@
 <Widget>
     <Kind>4</Kind>
     <Name>value</Name>
-    <Value>0.709359586</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -28,25 +28,25 @@
 <Widget>
     <Kind>4</Kind>
     <Name>BRI</Name>
-    <Value>1.000000000</Value>
+    <Value>0.000000000</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
     <Name>GRADIENT</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>HUE2</Name>
-    <Value>0.108374387</Value>
+    <Value>0.546798050</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>SAT2</Name>
-    <Value>0.125654444</Value>
+    <Value>0.691099465</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>BRI2</Name>
-    <Value>1.000000000</Value>
+    <Value>0.000000000</Value>
 </Widget>

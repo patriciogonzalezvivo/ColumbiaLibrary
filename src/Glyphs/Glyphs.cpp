@@ -46,10 +46,34 @@ void Glyphs::selfSetup(){
     freqscale = 10.0;
     
     circle.loadImage(getDataPath()+"images/circle.png");
+    
+    for(int i = 0; i < 5; i++){
+        text[i].setFontsDir( getDataPath()+"fonts/" );
+        string textName;
+        if (i == 0){
+            textName = "zero";
+        } else if (i == 1){
+            textName = "one";
+        } else if (i == 2){
+            textName = "two";
+        } else if (i == 3){
+            textName = "three";
+        } else if (i == 4){
+            textName = "four";
+        }
+        
+        text[i].loadSettings(getDataPath()+"text.xml",textName);
+    }
 }
 
 void Glyphs::selfSetupGuis(){
     backgroundSet(new UISuperBackground());
+    
+    for(int i = 0; i < 5; i++){
+        guiAdd(text[i]);
+    }
+    
+    lightAdd("TEXT_LIGHT", OF_LIGHT_SPOT);
     guiAdd(grid);
 }
 
@@ -169,12 +193,13 @@ void Glyphs::selfBegin(){
         //
         ofPoint pos;
         pos.x = center.x+radius*cos(angle);
-        pos.y = center.y+radius*sin(angle);
+        pos.y = center.y+radius*sin(-angle);
         
         connections[i]->set(pos);
         connections[i]->origin.set(pos);
         
-        connections[i]->color.set(colors_levels[level]);
+        connections[i]->color.set(210,50);
+        //connections[i]->color.set(colors_levels[level]);
         connections[i]->size = log(connections[i]->freq+2.0)*freqscale;
         
         connections[i]->makeGlyph(subjects);
@@ -208,7 +233,18 @@ void Glyphs::selfBegin(){
     float radius = 80*freqscale;
     for(int i = 0; i < subjects.size(); i++){
         subjects[i]->x = center.x+radius*cos(angle);
-        subjects[i]->y = center.y+radius*sin(angle);
+        subjects[i]->y = center.y+radius*sin(-angle);
+        
+        if ( i < 6 ) {
+            subjects[i]->color = ofColor(144, 230, 56, 130);
+        } else if ( i < 11 ) {
+            subjects[i]->color = ofColor(47, 75, 255, 108);
+        } else if ( i < 15 ) {
+            subjects[i]->color = ofColor(0, 184, 244, 100);
+        } else {
+            subjects[i]->color = ofColor(255, 149, 57, 120);
+        }
+        
         angle+=jump;
     }
 }
@@ -227,7 +263,7 @@ void Glyphs::selfUpdate(){
     
     for(int i = 0; i < connections.size();i++){
         if(forceToOrigin>0.0){
-            connections[i]->addSlowdonForceTo(connections[i]->origin, forceToOrigin);
+            connections[i]->addSlowdonForceTo(connections[i]->origin, forceToOrigin, false);
         }
         
         if(forceRepel>0.0){
@@ -251,6 +287,8 @@ void Glyphs::selfDraw(){
     grid.draw();
     ofPopMatrix();
     
+    
+    
     //  Draw Connections
     //
     for(int i = 0; i < connections.size(); i++){
@@ -263,6 +301,15 @@ void Glyphs::selfDraw(){
     for(int i = 0; i < subjects.size(); i++){
         subjects[i]->draw();
         subjects[i]->bSelected = false;
+    }
+    
+    for(int i = 0; i<5;i++){
+        ofPushMatrix();
+        string cameraName = "0"+ofToString(i);
+        ofMultMatrix( camera.getGlobalTransformMatrix(cameraName));
+        ofTranslate(-text[i].getCenter().x,-text[i].getCenter().y, -1000);
+        text[i].draw();
+        ofPopMatrix();
     }
     
     materials["MATERIAL 1"]->end();

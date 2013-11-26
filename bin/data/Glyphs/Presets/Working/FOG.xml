@@ -3,22 +3,22 @@
     <Name>FOG</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>272.000000000</YPosition>
+    <YPosition>382.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>ENABLE</Name>
-    <Value>0</Value>
+    <Value>1</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Density</Name>
-    <Value>0.039408866</Value>
+    <Value>0.029556651</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Density_EXP</Name>
-    <Value>-2.113300562</Value>
+    <Value>-2.674876928</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>

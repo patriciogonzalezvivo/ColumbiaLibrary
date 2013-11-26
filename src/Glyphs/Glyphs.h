@@ -7,7 +7,6 @@
 //
 
 #pragma once
-
 #include "UI3DGrid.h"
 #include "UITimeProject.h"
 
@@ -18,6 +17,7 @@
 #include "Connection.h"
 
 #include "CParticle.h"
+#include "UIText.h"
 
 #define MAX_LEVELS 10
 #define TOTAL_PARTICLES 50000
@@ -64,7 +64,6 @@ public:
     
 protected:
     UI3DGrid    grid;
-    
     ofImage     circle;
     
     Particle    center;
@@ -72,6 +71,8 @@ protected:
     vector<Spring>  springsToSubjects;
     vector<Subject*> subjects;
     vector<Connection*> connections;
+    
+    UIText  text[5];
     
     ofColor colors_levels[MAX_LEVELS];
     float   radius_levels[MAX_LEVELS];

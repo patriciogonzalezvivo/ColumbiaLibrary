@@ -1,9 +1,9 @@
 <Canvas>
     <Kind>42</Kind>
     <Name>CAMERA</Name>
-    <IsMinified>0</IsMinified>
-    <XPosition>1365.000000000</XPosition>
-    <YPosition>85.000000000</YPosition>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>357.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -27,21 +27,31 @@
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>Gustavo</Name>
+    <Name>00</Name>
     <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>PERSPECTIVE</Name>
+    <Name>01</Name>
     <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>TOP-CLOSE</Name>
+    <Name>02</Name>
     <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>TOP</Name>
+    <Name>03</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>04</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>04</Name>
     <Value>1</Value>
 </Widget>

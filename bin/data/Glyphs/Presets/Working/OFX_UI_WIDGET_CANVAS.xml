@@ -17,6 +17,31 @@
 </Widget>
 <Widget>
     <Kind>2</Kind>
+    <Name>00</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>01</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>02</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>03</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>04</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
     <Name>Circles</Name>
     <Value>0</Value>
 </Widget>
@@ -33,5 +58,5 @@
 <Widget>
     <Kind>2</Kind>
     <Name>Visible</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>

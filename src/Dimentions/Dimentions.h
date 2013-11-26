@@ -69,7 +69,6 @@ protected:
     //  Books
     //
     void                    assignDataToBooks();
-//    void                    orientBillBoard();
     void                    drawLabel(ofPoint _loc, string _name);
     
     int                     TOTAL_OF_BOOKS;

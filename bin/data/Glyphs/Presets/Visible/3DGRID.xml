@@ -3,12 +3,12 @@
     <Name>3DGRID</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>333.000000000</YPosition>
+    <YPosition>397.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>ENABLE</Name>
-    <Value>1</Value>
+    <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -33,17 +33,17 @@
 <Widget>
     <Kind>28</Kind>
     <Name>gridColor</Name>
-    <XValue>0.675000012</XValue>
-    <YValue>0.796875000</YValue>
-    <RColor>0</RColor>
-    <GColor>61</GColor>
-    <BColor>97</BColor>
+    <XValue>0.644999981</XValue>
+    <YValue>0.250000000</YValue>
+    <RColor>111</RColor>
+    <GColor>212</GColor>
+    <BColor>244</BColor>
     <AColor>255</AColor>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>gridAlpha</Name>
-    <Value>105.517242432</Value>
+    <Value>37.684730530</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -53,17 +53,17 @@
 <Widget>
     <Kind>28</Kind>
     <Name>gridMajorColor</Name>
-    <XValue>0.759999990</XValue>
-    <YValue>0.890625000</YValue>
-    <RColor>1</RColor>
-    <GColor>16</GColor>
-    <BColor>58</BColor>
+    <XValue>0.569999993</XValue>
+    <YValue>0.406250000</YValue>
+    <RColor>36</RColor>
+    <GColor>242</GColor>
+    <BColor>232</BColor>
     <AColor>255</AColor>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>gridMajorAlpha</Name>
-    <Value>217.315261841</Value>
+    <Value>120.591133118</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>

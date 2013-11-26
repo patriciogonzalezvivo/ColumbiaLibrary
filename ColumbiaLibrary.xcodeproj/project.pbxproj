@@ -19,31 +19,6 @@
 		3D1978D61813425000C6FECF /* Subject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D1978D41813425000C6FECF /* Subject.cpp */; };
 		3D1978D91813425900C6FECF /* Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D1978D71813425900C6FECF /* Connection.cpp */; };
 		3D1978DE1814210000C6FECF /* CParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D1978DC1814210000C6FECF /* CParticle.cpp */; };
-		3D7D8836183E9C4500EDF4BE /* UIBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D87F2183E9C4500EDF4BE /* UIBackground.cpp */; };
-		3D7D8837183E9C4500EDF4BE /* UISuperBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D87F4183E9C4500EDF4BE /* UISuperBackground.cpp */; };
-		3D7D8838183E9C4500EDF4BE /* DraggableRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D87FA183E9C4500EDF4BE /* DraggableRectangle.cpp */; };
-		3D7D8839183E9C4500EDF4BE /* UIClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D87FC183E9C4500EDF4BE /* UIClass.cpp */; };
-		3D7D883A183E9C4500EDF4BE /* UICamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8801183E9C4500EDF4BE /* UICamera.cpp */; };
-		3D7D883B183E9C4500EDF4BE /* UIFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8803183E9C4500EDF4BE /* UIFog.cpp */; };
-		3D7D883C183E9C4500EDF4BE /* UILight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8805183E9C4500EDF4BE /* UILight.cpp */; };
-		3D7D883D183E9C4500EDF4BE /* UIMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8807183E9C4500EDF4BE /* UIMaterial.cpp */; };
-		3D7D883E183E9C4500EDF4BE /* UIShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8809183E9C4500EDF4BE /* UIShader.cpp */; };
-		3D7D883F183E9C4500EDF4BE /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D880D183E9C4500EDF4BE /* Grid.cpp */; };
-		3D7D8840183E9C4500EDF4BE /* UI2DGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8811183E9C4500EDF4BE /* UI2DGrid.cpp */; };
-		3D7D8841183E9C4500EDF4BE /* UI3DGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8813183E9C4500EDF4BE /* UI3DGrid.cpp */; };
-		3D7D8842183E9C4500EDF4BE /* UIAudioIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8816183E9C4500EDF4BE /* UIAudioIn.cpp */; };
-		3D7D8843183E9C4500EDF4BE /* UIRpiCam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8818183E9C4500EDF4BE /* UIRpiCam.cpp */; };
-		3D7D8844183E9C4500EDF4BE /* Flickr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D881C183E9C4500EDF4BE /* Flickr.cpp */; };
-		3D7D8845183E9C4500EDF4BE /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D881E183E9C4500EDF4BE /* md5.cpp */; };
-		3D7D8846183E9C4500EDF4BE /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8820183E9C4500EDF4BE /* Note.cpp */; };
-		3D7D8847183E9C4500EDF4BE /* Recorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8822183E9C4500EDF4BE /* Recorder.cpp */; };
-		3D7D8848183E9C4500EDF4BE /* UILog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8824183E9C4500EDF4BE /* UILog.cpp */; };
-		3D7D8849183E9C4500EDF4BE /* TextArc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8827183E9C4500EDF4BE /* TextArc.cpp */; };
-		3D7D884A183E9C4500EDF4BE /* TextBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8829183E9C4500EDF4BE /* TextBlock.cpp */; };
-		3D7D884B183E9C4500EDF4BE /* TextShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D882C183E9C4500EDF4BE /* TextShape.cpp */; };
-		3D7D884C183E9C4500EDF4BE /* UIText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D882F183E9C4500EDF4BE /* UIText.cpp */; };
-		3D7D884D183E9C4500EDF4BE /* UI2DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8831183E9C4500EDF4BE /* UI2DProject.cpp */; };
-		3D7D884E183E9C4500EDF4BE /* UI3DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8833183E9C4500EDF4BE /* UI3DProject.cpp */; };
 		3D7D8890183E9C6200EDF4BE /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8852183E9C6200EDF4BE /* Book.cpp */; };
 		3D7D8891183E9C6200EDF4BE /* Page.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8854183E9C6200EDF4BE /* Page.cpp */; };
 		3D7D8892183E9C6200EDF4BE /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D8856183E9C6200EDF4BE /* Sphere.cpp */; };
@@ -65,6 +40,31 @@
 		3D7D88A2183E9C6200EDF4BE /* Spring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D888A183E9C6200EDF4BE /* Spring.cpp */; };
 		3D7D88A3183E9C6200EDF4BE /* SuperParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D888C183E9C6200EDF4BE /* SuperParticle.cpp */; };
 		3D7D88A4183E9C6200EDF4BE /* VectorField2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D888E183E9C6200EDF4BE /* VectorField2D.cpp */; };
+		3D99EB971844001E00C75419 /* UIBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB531844001E00C75419 /* UIBackground.cpp */; };
+		3D99EB981844001E00C75419 /* UISuperBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB551844001E00C75419 /* UISuperBackground.cpp */; };
+		3D99EB991844001E00C75419 /* DraggableRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB5B1844001E00C75419 /* DraggableRectangle.cpp */; };
+		3D99EB9A1844001E00C75419 /* UIClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB5D1844001E00C75419 /* UIClass.cpp */; };
+		3D99EB9B1844001E00C75419 /* UICamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB621844001E00C75419 /* UICamera.cpp */; };
+		3D99EB9C1844001E00C75419 /* UIFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB641844001E00C75419 /* UIFog.cpp */; };
+		3D99EB9D1844001E00C75419 /* UILight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB661844001E00C75419 /* UILight.cpp */; };
+		3D99EB9E1844001E00C75419 /* UIMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB681844001E00C75419 /* UIMaterial.cpp */; };
+		3D99EB9F1844001E00C75419 /* UIShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB6A1844001E00C75419 /* UIShader.cpp */; };
+		3D99EBA01844001E00C75419 /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB6E1844001E00C75419 /* Grid.cpp */; };
+		3D99EBA11844001E00C75419 /* UI2DGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB721844001E00C75419 /* UI2DGrid.cpp */; };
+		3D99EBA21844001E00C75419 /* UI3DGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB741844001E00C75419 /* UI3DGrid.cpp */; };
+		3D99EBA31844001E00C75419 /* UIBufferIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB771844001E00C75419 /* UIBufferIn.cpp */; };
+		3D99EBA41844001E00C75419 /* UIRpiCam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB791844001E00C75419 /* UIRpiCam.cpp */; };
+		3D99EBA51844001E00C75419 /* Flickr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB7D1844001E00C75419 /* Flickr.cpp */; };
+		3D99EBA61844001E00C75419 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB7F1844001E00C75419 /* md5.cpp */; };
+		3D99EBA71844001E00C75419 /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB811844001E00C75419 /* Note.cpp */; };
+		3D99EBA81844001E00C75419 /* Recorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB831844001E00C75419 /* Recorder.cpp */; };
+		3D99EBA91844001E00C75419 /* UILog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB851844001E00C75419 /* UILog.cpp */; };
+		3D99EBAA1844001E00C75419 /* TextArc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB881844001E00C75419 /* TextArc.cpp */; };
+		3D99EBAB1844001E00C75419 /* TextBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB8A1844001E00C75419 /* TextBlock.cpp */; };
+		3D99EBAC1844001E00C75419 /* TextShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB8D1844001E00C75419 /* TextShape.cpp */; };
+		3D99EBAD1844001E00C75419 /* UIText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB901844001E00C75419 /* UIText.cpp */; };
+		3D99EBAE1844001E00C75419 /* UI2DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB921844001E00C75419 /* UI2DProject.cpp */; };
+		3D99EBAF1844001E00C75419 /* UI3DProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D99EB941844001E00C75419 /* UI3DProject.cpp */; };
 		3a02cdf226d01ebb6533d47f0bb42c5a /* ofxTLTicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = e8e616bc8e15dee74a54901f444f74a3 /* ofxTLTicker.cpp */; };
 		3b32d3b612022d0c5b272bdd39e8a60f /* ofxTLVideoTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16644a54427c234fd75cb89d48524e02 /* ofxTLVideoTrack.cpp */; };
 		46be87fc2c481a1eb41aed2a8b97fe96 /* ofxTLCurves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7f47d144dc8b3e5cd297eaf57dc4f889 /* ofxTLCurves.cpp */; };
@@ -215,68 +215,6 @@
 		3D1978D81813425900C6FECF /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
 		3D1978DC1814210000C6FECF /* CParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CParticle.cpp; sourceTree = "<group>"; };
 		3D1978DD1814210000C6FECF /* CParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CParticle.h; sourceTree = "<group>"; };
-		3D7D87F2183E9C4500EDF4BE /* UIBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIBackground.cpp; sourceTree = "<group>"; };
-		3D7D87F3183E9C4500EDF4BE /* UIBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBackground.h; sourceTree = "<group>"; };
-		3D7D87F4183E9C4500EDF4BE /* UISuperBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UISuperBackground.cpp; sourceTree = "<group>"; };
-		3D7D87F5183E9C4500EDF4BE /* UISuperBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISuperBackground.h; sourceTree = "<group>"; };
-		3D7D87F7183E9C4500EDF4BE /* aColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aColor.h; sourceTree = "<group>"; };
-		3D7D87F8183E9C4500EDF4BE /* aPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aPoint.h; sourceTree = "<group>"; };
-		3D7D87F9183E9C4500EDF4BE /* ConsoleListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleListener.h; sourceTree = "<group>"; };
-		3D7D87FA183E9C4500EDF4BE /* DraggableRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DraggableRectangle.cpp; sourceTree = "<group>"; };
-		3D7D87FB183E9C4500EDF4BE /* DraggableRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableRectangle.h; sourceTree = "<group>"; };
-		3D7D87FC183E9C4500EDF4BE /* UIClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIClass.cpp; sourceTree = "<group>"; };
-		3D7D87FD183E9C4500EDF4BE /* UIClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIClass.h; sourceTree = "<group>"; };
-		3D7D87FF183E9C4500EDF4BE /* CameraLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraLocation.h; sourceTree = "<group>"; };
-		3D7D8800183E9C4500EDF4BE /* PingPong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingPong.h; sourceTree = "<group>"; };
-		3D7D8801183E9C4500EDF4BE /* UICamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UICamera.cpp; sourceTree = "<group>"; };
-		3D7D8802183E9C4500EDF4BE /* UICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICamera.h; sourceTree = "<group>"; };
-		3D7D8803183E9C4500EDF4BE /* UIFog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIFog.cpp; sourceTree = "<group>"; };
-		3D7D8804183E9C4500EDF4BE /* UIFog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFog.h; sourceTree = "<group>"; };
-		3D7D8805183E9C4500EDF4BE /* UILight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UILight.cpp; sourceTree = "<group>"; };
-		3D7D8806183E9C4500EDF4BE /* UILight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILight.h; sourceTree = "<group>"; };
-		3D7D8807183E9C4500EDF4BE /* UIMaterial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIMaterial.cpp; sourceTree = "<group>"; };
-		3D7D8808183E9C4500EDF4BE /* UIMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMaterial.h; sourceTree = "<group>"; };
-		3D7D8809183E9C4500EDF4BE /* UIShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIShader.cpp; sourceTree = "<group>"; };
-		3D7D880A183E9C4500EDF4BE /* UIShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIShader.h; sourceTree = "<group>"; };
-		3D7D880B183E9C4500EDF4BE /* Uniform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Uniform.h; sourceTree = "<group>"; };
-		3D7D880D183E9C4500EDF4BE /* Grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = "<group>"; };
-		3D7D880E183E9C4500EDF4BE /* Grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
-		3D7D880F183E9C4500EDF4BE /* GridBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridBox.h; sourceTree = "<group>"; };
-		3D7D8810183E9C4500EDF4BE /* GridCross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCross.h; sourceTree = "<group>"; };
-		3D7D8811183E9C4500EDF4BE /* UI2DGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI2DGrid.cpp; sourceTree = "<group>"; };
-		3D7D8812183E9C4500EDF4BE /* UI2DGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI2DGrid.h; sourceTree = "<group>"; };
-		3D7D8813183E9C4500EDF4BE /* UI3DGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI3DGrid.cpp; sourceTree = "<group>"; };
-		3D7D8814183E9C4500EDF4BE /* UI3DGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI3DGrid.h; sourceTree = "<group>"; };
-		3D7D8816183E9C4500EDF4BE /* UIAudioIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIAudioIn.cpp; sourceTree = "<group>"; };
-		3D7D8817183E9C4500EDF4BE /* UIAudioIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAudioIn.h; sourceTree = "<group>"; };
-		3D7D8818183E9C4500EDF4BE /* UIRpiCam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIRpiCam.cpp; sourceTree = "<group>"; };
-		3D7D8819183E9C4500EDF4BE /* UIRpiCam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIRpiCam.h; sourceTree = "<group>"; };
-		3D7D881B183E9C4500EDF4BE /* FileUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
-		3D7D881C183E9C4500EDF4BE /* Flickr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flickr.cpp; sourceTree = "<group>"; };
-		3D7D881D183E9C4500EDF4BE /* Flickr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
-		3D7D881E183E9C4500EDF4BE /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
-		3D7D881F183E9C4500EDF4BE /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		3D7D8820183E9C4500EDF4BE /* Note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
-		3D7D8821183E9C4500EDF4BE /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
-		3D7D8822183E9C4500EDF4BE /* Recorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recorder.cpp; sourceTree = "<group>"; };
-		3D7D8823183E9C4500EDF4BE /* Recorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
-		3D7D8824183E9C4500EDF4BE /* UILog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UILog.cpp; sourceTree = "<group>"; };
-		3D7D8825183E9C4500EDF4BE /* UILog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILog.h; sourceTree = "<group>"; };
-		3D7D8827183E9C4500EDF4BE /* TextArc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextArc.cpp; sourceTree = "<group>"; };
-		3D7D8828183E9C4500EDF4BE /* TextArc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextArc.h; sourceTree = "<group>"; };
-		3D7D8829183E9C4500EDF4BE /* TextBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextBlock.cpp; sourceTree = "<group>"; };
-		3D7D882A183E9C4500EDF4BE /* TextBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlock.h; sourceTree = "<group>"; };
-		3D7D882B183E9C4500EDF4BE /* TextFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFont.h; sourceTree = "<group>"; };
-		3D7D882C183E9C4500EDF4BE /* TextShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextShape.cpp; sourceTree = "<group>"; };
-		3D7D882D183E9C4500EDF4BE /* TextShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextShape.h; sourceTree = "<group>"; };
-		3D7D882E183E9C4500EDF4BE /* TextSyles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSyles.h; sourceTree = "<group>"; };
-		3D7D882F183E9C4500EDF4BE /* UIText.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIText.cpp; sourceTree = "<group>"; };
-		3D7D8830183E9C4500EDF4BE /* UIText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIText.h; sourceTree = "<group>"; };
-		3D7D8831183E9C4500EDF4BE /* UI2DProject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI2DProject.cpp; sourceTree = "<group>"; };
-		3D7D8832183E9C4500EDF4BE /* UI2DProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI2DProject.h; sourceTree = "<group>"; };
-		3D7D8833183E9C4500EDF4BE /* UI3DProject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI3DProject.cpp; sourceTree = "<group>"; };
-		3D7D8834183E9C4500EDF4BE /* UI3DProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI3DProject.h; sourceTree = "<group>"; };
-		3D7D8835183E9C4500EDF4BE /* UIProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIProject.h; sourceTree = "<group>"; };
 		3D7D8852183E9C6200EDF4BE /* Book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
 		3D7D8853183E9C6200EDF4BE /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		3D7D8854183E9C6200EDF4BE /* Page.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Page.cpp; sourceTree = "<group>"; };
@@ -331,6 +269,68 @@
 		3D7D888D183E9C6200EDF4BE /* SuperParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperParticle.h; sourceTree = "<group>"; };
 		3D7D888E183E9C6200EDF4BE /* VectorField2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorField2D.cpp; sourceTree = "<group>"; };
 		3D7D888F183E9C6200EDF4BE /* VectorField2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VectorField2D.h; sourceTree = "<group>"; };
+		3D99EB531844001E00C75419 /* UIBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIBackground.cpp; sourceTree = "<group>"; };
+		3D99EB541844001E00C75419 /* UIBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBackground.h; sourceTree = "<group>"; };
+		3D99EB551844001E00C75419 /* UISuperBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UISuperBackground.cpp; sourceTree = "<group>"; };
+		3D99EB561844001E00C75419 /* UISuperBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISuperBackground.h; sourceTree = "<group>"; };
+		3D99EB581844001E00C75419 /* aColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aColor.h; sourceTree = "<group>"; };
+		3D99EB591844001E00C75419 /* aPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aPoint.h; sourceTree = "<group>"; };
+		3D99EB5A1844001E00C75419 /* ConsoleListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleListener.h; sourceTree = "<group>"; };
+		3D99EB5B1844001E00C75419 /* DraggableRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DraggableRectangle.cpp; sourceTree = "<group>"; };
+		3D99EB5C1844001E00C75419 /* DraggableRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableRectangle.h; sourceTree = "<group>"; };
+		3D99EB5D1844001E00C75419 /* UIClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIClass.cpp; sourceTree = "<group>"; };
+		3D99EB5E1844001E00C75419 /* UIClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIClass.h; sourceTree = "<group>"; };
+		3D99EB601844001E00C75419 /* CameraLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraLocation.h; sourceTree = "<group>"; };
+		3D99EB611844001E00C75419 /* PingPong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingPong.h; sourceTree = "<group>"; };
+		3D99EB621844001E00C75419 /* UICamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UICamera.cpp; sourceTree = "<group>"; };
+		3D99EB631844001E00C75419 /* UICamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICamera.h; sourceTree = "<group>"; };
+		3D99EB641844001E00C75419 /* UIFog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIFog.cpp; sourceTree = "<group>"; };
+		3D99EB651844001E00C75419 /* UIFog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFog.h; sourceTree = "<group>"; };
+		3D99EB661844001E00C75419 /* UILight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UILight.cpp; sourceTree = "<group>"; };
+		3D99EB671844001E00C75419 /* UILight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILight.h; sourceTree = "<group>"; };
+		3D99EB681844001E00C75419 /* UIMaterial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIMaterial.cpp; sourceTree = "<group>"; };
+		3D99EB691844001E00C75419 /* UIMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMaterial.h; sourceTree = "<group>"; };
+		3D99EB6A1844001E00C75419 /* UIShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIShader.cpp; sourceTree = "<group>"; };
+		3D99EB6B1844001E00C75419 /* UIShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIShader.h; sourceTree = "<group>"; };
+		3D99EB6C1844001E00C75419 /* Uniform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Uniform.h; sourceTree = "<group>"; };
+		3D99EB6E1844001E00C75419 /* Grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = "<group>"; };
+		3D99EB6F1844001E00C75419 /* Grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		3D99EB701844001E00C75419 /* GridBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridBox.h; sourceTree = "<group>"; };
+		3D99EB711844001E00C75419 /* GridCross.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCross.h; sourceTree = "<group>"; };
+		3D99EB721844001E00C75419 /* UI2DGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI2DGrid.cpp; sourceTree = "<group>"; };
+		3D99EB731844001E00C75419 /* UI2DGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI2DGrid.h; sourceTree = "<group>"; };
+		3D99EB741844001E00C75419 /* UI3DGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI3DGrid.cpp; sourceTree = "<group>"; };
+		3D99EB751844001E00C75419 /* UI3DGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI3DGrid.h; sourceTree = "<group>"; };
+		3D99EB771844001E00C75419 /* UIBufferIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIBufferIn.cpp; sourceTree = "<group>"; };
+		3D99EB781844001E00C75419 /* UIBufferIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBufferIn.h; sourceTree = "<group>"; };
+		3D99EB791844001E00C75419 /* UIRpiCam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIRpiCam.cpp; sourceTree = "<group>"; };
+		3D99EB7A1844001E00C75419 /* UIRpiCam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIRpiCam.h; sourceTree = "<group>"; };
+		3D99EB7C1844001E00C75419 /* FileUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUploader.h; sourceTree = "<group>"; };
+		3D99EB7D1844001E00C75419 /* Flickr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flickr.cpp; sourceTree = "<group>"; };
+		3D99EB7E1844001E00C75419 /* Flickr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		3D99EB7F1844001E00C75419 /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		3D99EB801844001E00C75419 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		3D99EB811844001E00C75419 /* Note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
+		3D99EB821844001E00C75419 /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		3D99EB831844001E00C75419 /* Recorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recorder.cpp; sourceTree = "<group>"; };
+		3D99EB841844001E00C75419 /* Recorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		3D99EB851844001E00C75419 /* UILog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UILog.cpp; sourceTree = "<group>"; };
+		3D99EB861844001E00C75419 /* UILog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILog.h; sourceTree = "<group>"; };
+		3D99EB881844001E00C75419 /* TextArc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextArc.cpp; sourceTree = "<group>"; };
+		3D99EB891844001E00C75419 /* TextArc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextArc.h; sourceTree = "<group>"; };
+		3D99EB8A1844001E00C75419 /* TextBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextBlock.cpp; sourceTree = "<group>"; };
+		3D99EB8B1844001E00C75419 /* TextBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlock.h; sourceTree = "<group>"; };
+		3D99EB8C1844001E00C75419 /* TextFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFont.h; sourceTree = "<group>"; };
+		3D99EB8D1844001E00C75419 /* TextShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextShape.cpp; sourceTree = "<group>"; };
+		3D99EB8E1844001E00C75419 /* TextShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextShape.h; sourceTree = "<group>"; };
+		3D99EB8F1844001E00C75419 /* TextSyles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextSyles.h; sourceTree = "<group>"; };
+		3D99EB901844001E00C75419 /* UIText.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIText.cpp; sourceTree = "<group>"; };
+		3D99EB911844001E00C75419 /* UIText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIText.h; sourceTree = "<group>"; };
+		3D99EB921844001E00C75419 /* UI2DProject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI2DProject.cpp; sourceTree = "<group>"; };
+		3D99EB931844001E00C75419 /* UI2DProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI2DProject.h; sourceTree = "<group>"; };
+		3D99EB941844001E00C75419 /* UI3DProject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI3DProject.cpp; sourceTree = "<group>"; };
+		3D99EB951844001E00C75419 /* UI3DProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI3DProject.h; sourceTree = "<group>"; };
+		3D99EB961844001E00C75419 /* UIProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIProject.h; sourceTree = "<group>"; };
 		3d0621ce540a64d8d27e0af7f83b3eb2 /* ofxTLTrackHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTLTrackHeader.h; path = ../../../addons/ofxTimeline/src/ofxTLTrackHeader.h; sourceTree = SOURCE_ROOT; };
 		3d5a2b98580af9336c8c1886c7a2324d /* ofxTLColorTrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTLColorTrack.cpp; path = ../../../addons/ofxTimeline/src/ofxTLColorTrack.cpp; sourceTree = SOURCE_ROOT; };
 		3d5a874ae34061363e1c19b123b9054d /* ofxTextInputFieldFontRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTextInputFieldFontRenderer.h; path = ../../../addons/ofxTextInputField/src/ofxTextInputFieldFontRenderer.h; sourceTree = SOURCE_ROOT; };
@@ -578,140 +578,6 @@
 			path = Glyphs;
 			sourceTree = "<group>";
 		};
-		3D7D87EF183E9C4500EDF4BE /* ofxUIProject */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D87F0183E9C4500EDF4BE /* src */,
-			);
-			name = ofxUIProject;
-			sourceTree = "<group>";
-		};
-		3D7D87F0183E9C4500EDF4BE /* src */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D87F1183E9C4500EDF4BE /* background */,
-				3D7D87F6183E9C4500EDF4BE /* core */,
-				3D7D87FE183E9C4500EDF4BE /* gl */,
-				3D7D880C183E9C4500EDF4BE /* grids */,
-				3D7D8815183E9C4500EDF4BE /* io */,
-				3D7D881A183E9C4500EDF4BE /* log */,
-				3D7D8826183E9C4500EDF4BE /* text */,
-				3D7D8831183E9C4500EDF4BE /* UI2DProject.cpp */,
-				3D7D8832183E9C4500EDF4BE /* UI2DProject.h */,
-				3D7D8833183E9C4500EDF4BE /* UI3DProject.cpp */,
-				3D7D8834183E9C4500EDF4BE /* UI3DProject.h */,
-				3D7D8835183E9C4500EDF4BE /* UIProject.h */,
-			);
-			name = src;
-			path = ../../../addons/ofxUIProject/src;
-			sourceTree = "<group>";
-		};
-		3D7D87F1183E9C4500EDF4BE /* background */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D87F2183E9C4500EDF4BE /* UIBackground.cpp */,
-				3D7D87F3183E9C4500EDF4BE /* UIBackground.h */,
-				3D7D87F4183E9C4500EDF4BE /* UISuperBackground.cpp */,
-				3D7D87F5183E9C4500EDF4BE /* UISuperBackground.h */,
-			);
-			path = background;
-			sourceTree = "<group>";
-		};
-		3D7D87F6183E9C4500EDF4BE /* core */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D87F7183E9C4500EDF4BE /* aColor.h */,
-				3D7D87F8183E9C4500EDF4BE /* aPoint.h */,
-				3D7D87F9183E9C4500EDF4BE /* ConsoleListener.h */,
-				3D7D87FA183E9C4500EDF4BE /* DraggableRectangle.cpp */,
-				3D7D87FB183E9C4500EDF4BE /* DraggableRectangle.h */,
-				3D7D87FC183E9C4500EDF4BE /* UIClass.cpp */,
-				3D7D87FD183E9C4500EDF4BE /* UIClass.h */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		3D7D87FE183E9C4500EDF4BE /* gl */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D87FF183E9C4500EDF4BE /* CameraLocation.h */,
-				3D7D8800183E9C4500EDF4BE /* PingPong.h */,
-				3D7D8801183E9C4500EDF4BE /* UICamera.cpp */,
-				3D7D8802183E9C4500EDF4BE /* UICamera.h */,
-				3D7D8803183E9C4500EDF4BE /* UIFog.cpp */,
-				3D7D8804183E9C4500EDF4BE /* UIFog.h */,
-				3D7D8805183E9C4500EDF4BE /* UILight.cpp */,
-				3D7D8806183E9C4500EDF4BE /* UILight.h */,
-				3D7D8807183E9C4500EDF4BE /* UIMaterial.cpp */,
-				3D7D8808183E9C4500EDF4BE /* UIMaterial.h */,
-				3D7D8809183E9C4500EDF4BE /* UIShader.cpp */,
-				3D7D880A183E9C4500EDF4BE /* UIShader.h */,
-				3D7D880B183E9C4500EDF4BE /* Uniform.h */,
-			);
-			path = gl;
-			sourceTree = "<group>";
-		};
-		3D7D880C183E9C4500EDF4BE /* grids */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D880D183E9C4500EDF4BE /* Grid.cpp */,
-				3D7D880E183E9C4500EDF4BE /* Grid.h */,
-				3D7D880F183E9C4500EDF4BE /* GridBox.h */,
-				3D7D8810183E9C4500EDF4BE /* GridCross.h */,
-				3D7D8811183E9C4500EDF4BE /* UI2DGrid.cpp */,
-				3D7D8812183E9C4500EDF4BE /* UI2DGrid.h */,
-				3D7D8813183E9C4500EDF4BE /* UI3DGrid.cpp */,
-				3D7D8814183E9C4500EDF4BE /* UI3DGrid.h */,
-			);
-			path = grids;
-			sourceTree = "<group>";
-		};
-		3D7D8815183E9C4500EDF4BE /* io */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D8816183E9C4500EDF4BE /* UIAudioIn.cpp */,
-				3D7D8817183E9C4500EDF4BE /* UIAudioIn.h */,
-				3D7D8818183E9C4500EDF4BE /* UIRpiCam.cpp */,
-				3D7D8819183E9C4500EDF4BE /* UIRpiCam.h */,
-			);
-			path = io;
-			sourceTree = "<group>";
-		};
-		3D7D881A183E9C4500EDF4BE /* log */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D881B183E9C4500EDF4BE /* FileUploader.h */,
-				3D7D881C183E9C4500EDF4BE /* Flickr.cpp */,
-				3D7D881D183E9C4500EDF4BE /* Flickr.h */,
-				3D7D881E183E9C4500EDF4BE /* md5.cpp */,
-				3D7D881F183E9C4500EDF4BE /* md5.h */,
-				3D7D8820183E9C4500EDF4BE /* Note.cpp */,
-				3D7D8821183E9C4500EDF4BE /* Note.h */,
-				3D7D8822183E9C4500EDF4BE /* Recorder.cpp */,
-				3D7D8823183E9C4500EDF4BE /* Recorder.h */,
-				3D7D8824183E9C4500EDF4BE /* UILog.cpp */,
-				3D7D8825183E9C4500EDF4BE /* UILog.h */,
-			);
-			path = log;
-			sourceTree = "<group>";
-		};
-		3D7D8826183E9C4500EDF4BE /* text */ = {
-			isa = PBXGroup;
-			children = (
-				3D7D8827183E9C4500EDF4BE /* TextArc.cpp */,
-				3D7D8828183E9C4500EDF4BE /* TextArc.h */,
-				3D7D8829183E9C4500EDF4BE /* TextBlock.cpp */,
-				3D7D882A183E9C4500EDF4BE /* TextBlock.h */,
-				3D7D882B183E9C4500EDF4BE /* TextFont.h */,
-				3D7D882C183E9C4500EDF4BE /* TextShape.cpp */,
-				3D7D882D183E9C4500EDF4BE /* TextShape.h */,
-				3D7D882E183E9C4500EDF4BE /* TextSyles.h */,
-				3D7D882F183E9C4500EDF4BE /* UIText.cpp */,
-				3D7D8830183E9C4500EDF4BE /* UIText.h */,
-			);
-			path = text;
-			sourceTree = "<group>";
-		};
 		3D7D884F183E9C6200EDF4BE /* ofxUIElements */ = {
 			isa = PBXGroup;
 			children = (
@@ -852,6 +718,140 @@
 				3D7D888F183E9C6200EDF4BE /* VectorField2D.h */,
 			);
 			path = physics;
+			sourceTree = "<group>";
+		};
+		3D99EB501844001E00C75419 /* ofxUIProject */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB511844001E00C75419 /* src */,
+			);
+			name = ofxUIProject;
+			sourceTree = "<group>";
+		};
+		3D99EB511844001E00C75419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB521844001E00C75419 /* background */,
+				3D99EB571844001E00C75419 /* core */,
+				3D99EB5F1844001E00C75419 /* gl */,
+				3D99EB6D1844001E00C75419 /* grids */,
+				3D99EB761844001E00C75419 /* io */,
+				3D99EB7B1844001E00C75419 /* log */,
+				3D99EB871844001E00C75419 /* text */,
+				3D99EB921844001E00C75419 /* UI2DProject.cpp */,
+				3D99EB931844001E00C75419 /* UI2DProject.h */,
+				3D99EB941844001E00C75419 /* UI3DProject.cpp */,
+				3D99EB951844001E00C75419 /* UI3DProject.h */,
+				3D99EB961844001E00C75419 /* UIProject.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxUIProject/src;
+			sourceTree = "<group>";
+		};
+		3D99EB521844001E00C75419 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB531844001E00C75419 /* UIBackground.cpp */,
+				3D99EB541844001E00C75419 /* UIBackground.h */,
+				3D99EB551844001E00C75419 /* UISuperBackground.cpp */,
+				3D99EB561844001E00C75419 /* UISuperBackground.h */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		3D99EB571844001E00C75419 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB581844001E00C75419 /* aColor.h */,
+				3D99EB591844001E00C75419 /* aPoint.h */,
+				3D99EB5A1844001E00C75419 /* ConsoleListener.h */,
+				3D99EB5B1844001E00C75419 /* DraggableRectangle.cpp */,
+				3D99EB5C1844001E00C75419 /* DraggableRectangle.h */,
+				3D99EB5D1844001E00C75419 /* UIClass.cpp */,
+				3D99EB5E1844001E00C75419 /* UIClass.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		3D99EB5F1844001E00C75419 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB601844001E00C75419 /* CameraLocation.h */,
+				3D99EB611844001E00C75419 /* PingPong.h */,
+				3D99EB621844001E00C75419 /* UICamera.cpp */,
+				3D99EB631844001E00C75419 /* UICamera.h */,
+				3D99EB641844001E00C75419 /* UIFog.cpp */,
+				3D99EB651844001E00C75419 /* UIFog.h */,
+				3D99EB661844001E00C75419 /* UILight.cpp */,
+				3D99EB671844001E00C75419 /* UILight.h */,
+				3D99EB681844001E00C75419 /* UIMaterial.cpp */,
+				3D99EB691844001E00C75419 /* UIMaterial.h */,
+				3D99EB6A1844001E00C75419 /* UIShader.cpp */,
+				3D99EB6B1844001E00C75419 /* UIShader.h */,
+				3D99EB6C1844001E00C75419 /* Uniform.h */,
+			);
+			path = gl;
+			sourceTree = "<group>";
+		};
+		3D99EB6D1844001E00C75419 /* grids */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB6E1844001E00C75419 /* Grid.cpp */,
+				3D99EB6F1844001E00C75419 /* Grid.h */,
+				3D99EB701844001E00C75419 /* GridBox.h */,
+				3D99EB711844001E00C75419 /* GridCross.h */,
+				3D99EB721844001E00C75419 /* UI2DGrid.cpp */,
+				3D99EB731844001E00C75419 /* UI2DGrid.h */,
+				3D99EB741844001E00C75419 /* UI3DGrid.cpp */,
+				3D99EB751844001E00C75419 /* UI3DGrid.h */,
+			);
+			path = grids;
+			sourceTree = "<group>";
+		};
+		3D99EB761844001E00C75419 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB771844001E00C75419 /* UIBufferIn.cpp */,
+				3D99EB781844001E00C75419 /* UIBufferIn.h */,
+				3D99EB791844001E00C75419 /* UIRpiCam.cpp */,
+				3D99EB7A1844001E00C75419 /* UIRpiCam.h */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		3D99EB7B1844001E00C75419 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB7C1844001E00C75419 /* FileUploader.h */,
+				3D99EB7D1844001E00C75419 /* Flickr.cpp */,
+				3D99EB7E1844001E00C75419 /* Flickr.h */,
+				3D99EB7F1844001E00C75419 /* md5.cpp */,
+				3D99EB801844001E00C75419 /* md5.h */,
+				3D99EB811844001E00C75419 /* Note.cpp */,
+				3D99EB821844001E00C75419 /* Note.h */,
+				3D99EB831844001E00C75419 /* Recorder.cpp */,
+				3D99EB841844001E00C75419 /* Recorder.h */,
+				3D99EB851844001E00C75419 /* UILog.cpp */,
+				3D99EB861844001E00C75419 /* UILog.h */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		3D99EB871844001E00C75419 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				3D99EB881844001E00C75419 /* TextArc.cpp */,
+				3D99EB891844001E00C75419 /* TextArc.h */,
+				3D99EB8A1844001E00C75419 /* TextBlock.cpp */,
+				3D99EB8B1844001E00C75419 /* TextBlock.h */,
+				3D99EB8C1844001E00C75419 /* TextFont.h */,
+				3D99EB8D1844001E00C75419 /* TextShape.cpp */,
+				3D99EB8E1844001E00C75419 /* TextShape.h */,
+				3D99EB8F1844001E00C75419 /* TextSyles.h */,
+				3D99EB901844001E00C75419 /* UIText.cpp */,
+				3D99EB911844001E00C75419 /* UIText.h */,
+			);
+			path = text;
 			sourceTree = "<group>";
 		};
 		3c8a947d9c8a0aa13fbe74e89a4c2854 /* ofxTimeline */ = {
@@ -1056,8 +1056,9 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				3D99EB501844001E00C75419 /* ofxUIProject */,
+				2b6fab7794ac79a8e17654cce9e3d89c /* ofxUITimeProject */,
 				3D7D884F183E9C6200EDF4BE /* ofxUIElements */,
-				3D7D87EF183E9C4500EDF4BE /* ofxUIProject */,
 				5d5c0ae687ac481a1ca3e1c200964ccc /* ofxMSATimer */,
 				9fd9332064a1194ac3cd20c226cc5a32 /* ofxRange */,
 				ab88b4fd5d7f4abf53230e5a327c1368 /* ofxTextInputField */,
@@ -1065,7 +1066,6 @@
 				3c8a947d9c8a0aa13fbe74e89a4c2854 /* ofxTimeline */,
 				1f293a20d2b096d59c4f24ddc5226665 /* ofxTween */,
 				a492ce86424ab8905550bfd831201a16 /* ofxUI */,
-				2b6fab7794ac79a8e17654cce9e3d89c /* ofxUITimeProject */,
 				1f4fb5c423662b96adfdcc0badec1cb0 /* ofxXmlSettings */,
 			);
 			name = addons;
@@ -1430,13 +1430,13 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				3D7D884D183E9C4500EDF4BE /* UI2DProject.cpp in Sources */,
 				3D7D88A3183E9C6200EDF4BE /* SuperParticle.cpp in Sources */,
 				d5f1be1e7c490dbdbe8798e812fb8a51 /* BookParticle.cpp in Sources */,
+				3D99EBAC1844001E00C75419 /* TextShape.cpp in Sources */,
 				d6e9967b1886b45333297d0d52528be0 /* Category.cpp in Sources */,
 				1179c8d5b07a10d9e42084848ca3d82c /* Dimentions.cpp in Sources */,
 				9a8b801e3dd09bde9a44a78ada32987b /* InBoxes.cpp in Sources */,
-				3D7D8842183E9C4500EDF4BE /* UIAudioIn.cpp in Sources */,
+				3D99EB971844001E00C75419 /* UIBackground.cpp in Sources */,
 				9119bfc53670a98106e367bbc1bd167a /* ofxMSATimer.cpp in Sources */,
 				f6ca03081709fcbfdaef66765f9e376e /* ofxTextInputField.cpp in Sources */,
 				3D7D88A2183E9C6200EDF4BE /* Spring.cpp in Sources */,
@@ -1445,51 +1445,50 @@
 				3D7D889B183E9C6200EDF4BE /* UIGlobe.cpp in Sources */,
 				5da2e0e8ecdb5b4e2908167d7b74de63 /* ofxHotKeys_impl_linux.cpp in Sources */,
 				7d7ecd8dd8eb4244d7a87f40ba8c53cd /* ofxHotKeys_impl_mac.mm in Sources */,
+				3D99EBA21844001E00C75419 /* UI3DGrid.cpp in Sources */,
 				e904ef309b050587cf73df2173a531a6 /* ofxHotKeys_impl_win.cpp in Sources */,
 				fd525b9bc71cf001cac34c5a87c2672f /* ofxRemoveCocoaMenu.mm in Sources */,
+				3D99EBA81844001E00C75419 /* Recorder.cpp in Sources */,
 				7ac6376b15bcf4d368ec068f0ecce711 /* ofxTimeline.cpp in Sources */,
 				14ed851279c06f2bcf0bf27935d38ce3 /* ofxTLAudioTrack.cpp in Sources */,
 				3D7D889F183E9C6200EDF4BE /* Boid.cpp in Sources */,
 				3D7D88A0183E9C6200EDF4BE /* Flock.cpp in Sources */,
 				fb591e0c571e53b3ba5a60b84605de3d /* ofxTLBangs.cpp in Sources */,
+				3D99EB9B1844001E00C75419 /* UICamera.cpp in Sources */,
 				3D1978D31813406000C6FECF /* Glyphs.cpp in Sources */,
 				cf54b41ab5ff1af0e8677338f5f60395 /* ofxTLCameraTrack.cpp in Sources */,
 				3D7D8899183E9C6200EDF4BE /* TileLoader.cpp in Sources */,
-				3D7D8843183E9C4500EDF4BE /* UIRpiCam.cpp in Sources */,
 				9d7bb9637658a8e9d507c66c47db010f /* ofxTLColors.cpp in Sources */,
 				49e60cc9bbcafb6eade107cc20884b9c /* ofxTLColorTrack.cpp in Sources */,
+				3D99EBAB1844001E00C75419 /* TextBlock.cpp in Sources */,
 				46be87fc2c481a1eb41aed2a8b97fe96 /* ofxTLCurves.cpp in Sources */,
+				3D99EBAF1844001E00C75419 /* UI3DProject.cpp in Sources */,
 				3D7D8895183E9C6200EDF4BE /* fft.cpp in Sources */,
 				3D7D8894183E9C6200EDF4BE /* UIShell.cpp in Sources */,
+				3D99EBAD1844001E00C75419 /* UIText.cpp in Sources */,
 				4df88daf2c820a78327000e7ac0925c5 /* ofxTLEmptyKeyframes.cpp in Sources */,
 				98126aa8f306f3ee0f5f37bed7056435 /* ofxTLEmptyTrack.cpp in Sources */,
 				3D7D8898183E9C6200EDF4BE /* SimpleWebScraper.cpp in Sources */,
-				3D7D8838183E9C4500EDF4BE /* DraggableRectangle.cpp in Sources */,
 				c3bc382653a57ce71d4513f1eaba414b /* ofxTLFlags.cpp in Sources */,
 				1479a06207a85dfdeca39f009ad023d0 /* ofxTLImageSequence.cpp in Sources */,
 				3D7D88A1183E9C6200EDF4BE /* Particle.cpp in Sources */,
 				def58837140932f5996c61c2241ef66e /* ofxTLImageSequenceFrame.cpp in Sources */,
-				3D7D883B183E9C4500EDF4BE /* UIFog.cpp in Sources */,
-				3D7D883E183E9C4500EDF4BE /* UIShader.cpp in Sources */,
 				95e6e69db45e5f9e4f1c21e09d04b380 /* ofxTLImageTrack.cpp in Sources */,
 				3D7D889E183E9C6200EDF4BE /* Star.cpp in Sources */,
 				d7058ecb9868a269655092911f63df8c /* ofxTLInOut.cpp in Sources */,
-				3D7D883C183E9C4500EDF4BE /* UILight.cpp in Sources */,
-				3D7D8847183E9C4500EDF4BE /* Recorder.cpp in Sources */,
-				3D7D8840183E9C4500EDF4BE /* UI2DGrid.cpp in Sources */,
-				3D7D883D183E9C4500EDF4BE /* UIMaterial.cpp in Sources */,
-				3D7D8846183E9C4500EDF4BE /* Note.cpp in Sources */,
 				3D7D8897183E9C6200EDF4BE /* LinearProjection.cpp in Sources */,
+				3D99EBAA1844001E00C75419 /* TextArc.cpp in Sources */,
 				3D7D889D183E9C6200EDF4BE /* Location.cpp in Sources */,
-				3D7D8841183E9C4500EDF4BE /* UI3DGrid.cpp in Sources */,
-				3D7D8848183E9C4500EDF4BE /* UILog.cpp in Sources */,
+				3D99EB981844001E00C75419 /* UISuperBackground.cpp in Sources */,
 				b3baa90667d4b61631ba59627d616a39 /* ofxTLKeyframes.cpp in Sources */,
 				e48c9224adc0eb481a762e226aaffadb /* ofxTLLFO.cpp in Sources */,
-				3D7D8839183E9C4500EDF4BE /* UIClass.cpp in Sources */,
+				3D99EB9A1844001E00C75419 /* UIClass.cpp in Sources */,
+				3D99EB9E1844001E00C75419 /* UIMaterial.cpp in Sources */,
 				c7d250488914920c32f18f34136a2175 /* ofxTLPage.cpp in Sources */,
+				3D99EB9D1844001E00C75419 /* UILight.cpp in Sources */,
 				bcfdfc3681cf3552bcdb819e675b5dce /* ofxTLPageTabs.cpp in Sources */,
-				3D7D884E183E9C4500EDF4BE /* UI3DProject.cpp in Sources */,
 				3D7D8896183E9C6200EDF4BE /* fftOctaveAnalyzer.cpp in Sources */,
+				3D99EB9F1844001E00C75419 /* UIShader.cpp in Sources */,
 				9e8ec2bf8bca13da057fa929463bbafb /* ofxTLSwitches.cpp in Sources */,
 				3a02cdf226d01ebb6533d47f0bb42c5a /* ofxTLTicker.cpp in Sources */,
 				f4a426f97ee8f1a3ead2a8f00212b48a /* ofxTLTrack.cpp in Sources */,
@@ -1498,32 +1497,32 @@
 				3b32d3b612022d0c5b272bdd39e8a60f /* ofxTLVideoTrack.cpp in Sources */,
 				ed77da7c8d99d9b1c9c240c836f5baf7 /* ofxTLZoomer.cpp in Sources */,
 				d5f416a7f5798651d8370d5e93c0c797 /* kiss_fft.c in Sources */,
+				3D99EBA71844001E00C75419 /* Note.cpp in Sources */,
 				3D1978D61813425000C6FECF /* Subject.cpp in Sources */,
+				3D99EBA01844001E00C75419 /* Grid.cpp in Sources */,
+				3D99EBA31844001E00C75419 /* UIBufferIn.cpp in Sources */,
+				3D99EBA61844001E00C75419 /* md5.cpp in Sources */,
+				3D99EBAE1844001E00C75419 /* UI2DProject.cpp in Sources */,
+				3D99EBA11844001E00C75419 /* UI2DGrid.cpp in Sources */,
 				782c2b355cb6ebc83bdb95e0bd931001 /* kiss_fftr.c in Sources */,
 				de69bd6cb5972050a485ec9cb65cb655 /* ofOpenALSoundPlayer_TimelineAdditions.cpp in Sources */,
 				168c43f69af6a8042ea0b13f08dfe5ff /* easing_terms_of_use.html in Sources */,
 				9266028e1aecbb027abf64d8cfab4b5f /* ofxEasing.cpp in Sources */,
-				3D7D8837183E9C4500EDF4BE /* UISuperBackground.cpp in Sources */,
 				3D1978CA1813216900C6FECF /* DraggableRectangle2.cpp in Sources */,
 				5e0dbde5736deb3a5886b3f1e3b4578d /* ofxEasingBack.cpp in Sources */,
 				ead3ce0789481f975f351f39ee5137c4 /* ofxEasingBounce.cpp in Sources */,
 				3D7D8892183E9C6200EDF4BE /* Sphere.cpp in Sources */,
 				27765d1bff26bd9a6186915f24dfd27c /* ofxEasingCirc.cpp in Sources */,
-				3D7D883A183E9C4500EDF4BE /* UICamera.cpp in Sources */,
-				3D7D883F183E9C4500EDF4BE /* Grid.cpp in Sources */,
-				3D7D8849183E9C4500EDF4BE /* TextArc.cpp in Sources */,
-				3D7D884A183E9C4500EDF4BE /* TextBlock.cpp in Sources */,
 				3D1978D91813425900C6FECF /* Connection.cpp in Sources */,
-				3D7D8844183E9C4500EDF4BE /* Flickr.cpp in Sources */,
-				3D7D884B183E9C4500EDF4BE /* TextShape.cpp in Sources */,
-				3D7D8836183E9C4500EDF4BE /* UIBackground.cpp in Sources */,
 				e816d7d242d315fb53e23f5443df8700 /* ofxEasingCubic.cpp in Sources */,
 				3D7D8891183E9C6200EDF4BE /* Page.cpp in Sources */,
-				3D7D884C183E9C4500EDF4BE /* UIText.cpp in Sources */,
+				3D99EBA51844001E00C75419 /* Flickr.cpp in Sources */,
+				3D99EBA91844001E00C75419 /* UILog.cpp in Sources */,
 				6e062274743f6716a9ad43959541a220 /* ofxEasingElastic.cpp in Sources */,
 				3D1978DE1814210000C6FECF /* CParticle.cpp in Sources */,
 				59eeacb88f062457ff86492c078803bd /* ofxEasingExpo.cpp in Sources */,
 				152eaecabd008d84af7f27f83f4389c4 /* ofxEasingLinear.cpp in Sources */,
+				3D99EBA41844001E00C75419 /* UIRpiCam.cpp in Sources */,
 				6d7b53ed56654abbf2ff13b127236c33 /* ofxEasingQuad.cpp in Sources */,
 				85a41526fdfa1a8cdaee81f79de999b7 /* ofxEasingQuart.cpp in Sources */,
 				7e769097de6561633305b24c2ad560e7 /* ofxEasingQuint.cpp in Sources */,
@@ -1535,8 +1534,9 @@
 				3D7D8893183E9C6200EDF4BE /* SpherePoint.cpp in Sources */,
 				63b57ac5bf4ef088491e0317dbb2ecaa /* ofxXmlSettings.cpp in Sources */,
 				933a2227713c720ceff80fd967d0a8ee /* tinyxml.cpp in Sources */,
+				3D99EB991844001E00C75419 /* DraggableRectangle.cpp in Sources */,
+				3D99EB9C1844001E00C75419 /* UIFog.cpp in Sources */,
 				9d44dc88ef9e7991b4a09951e2e4769f /* tinyxmlerror.cpp in Sources */,
-				3D7D8845183E9C4500EDF4BE /* md5.cpp in Sources */,
 				5a4349e9754d6fa14c0f2a3a1abc30b6 /* tinyxmlparser.cpp in Sources */,
 				3D7D8890183E9C6200EDF4BE /* Book.cpp in Sources */,
 			);

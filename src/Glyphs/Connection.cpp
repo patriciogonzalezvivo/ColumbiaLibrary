@@ -48,14 +48,13 @@ void Connection::draw(ofTexture &_tex){
     
     if(bHover||bSelected){
         ofTranslate(0, 0, 2);
-        ofSetColor(color,255);
-    } else {
-        ofSetColor(color,150);
     }
+    
+    ofSetColor(color);
     ofFill();
-//    ofEllipse(*this, size, size);
     ofTranslate(*this);
     _tex.draw(-size*0.5, -size*0.5, size,size);
+    //    ofEllipse(*this, size, size);
     
     ofPopMatrix();
     ofPopStyle();
@@ -63,18 +62,14 @@ void Connection::draw(ofTexture &_tex){
 
 void Connection::drawLines(bool _clamp){
     ofPushStyle();
-    
     ofPushMatrix();
-    
     ofTranslate(*this);
+    
     if(bHover||bSelected){
-        ofTranslate(0, 0, 4);
-        ofSetColor(0);
-    } else {
         ofTranslate(0, 0, 2);
-        ofSetColor(0,150);
     }
     
+    ofSetLineWidth(3);
     for(int i = 0; i < subCon.size(); i++){
         ofPoint diff = (*subCon[i])-ofPoint(*this);
         
@@ -89,6 +84,12 @@ void Connection::drawLines(bool _clamp){
             subCon[i]->bSelected = bHover||bSelected;
         }
         
+        ofTranslate(0, 0, 0.1);
+        if(bHover||bSelected){
+            ofSetColor(subCon[i]->color);
+        } else {
+            ofSetColor(subCon[i]->color);
+        }
         ofLine(ofPoint(0,0),diff);
     }
     ofPopMatrix();

@@ -12,6 +12,14 @@
         </Mapping>
         <Mapping>
             <Widget>
+                <WidgetName>Categories_Nodes_Alpha</WidgetName>
+                <WidgetID>26</WidgetID>
+                <WidgetCanvasParent>RenderSettings</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
                 <WidgetName>speed</WidgetName>
                 <WidgetID>6</WidgetID>
                 <WidgetCanvasParent>SystemSettings</WidgetCanvasParent>

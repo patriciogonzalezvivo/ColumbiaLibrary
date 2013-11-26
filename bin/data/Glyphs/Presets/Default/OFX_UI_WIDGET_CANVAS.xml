@@ -16,11 +16,6 @@
     <Value>0</Value>
 </Widget>
 <Widget>
-    <Kind>12</Kind>
-    <Name>ADD</Name>
-    <Value>Default</Value>
-</Widget>
-<Widget>
     <Kind>2</Kind>
     <Name>Circles</Name>
     <Value>1</Value>

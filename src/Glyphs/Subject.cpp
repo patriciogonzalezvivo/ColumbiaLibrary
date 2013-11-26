@@ -16,13 +16,12 @@ Subject::Subject(){
 void Subject::draw(){
     ofPushStyle();
     
+    ofFill();
     if(bSelected){
         ofSetColor(color,255);
     } else {
         ofSetColor(color,100);
     }
-    
-    ofNoFill();
     ofEllipse(*this, size, size);
     
     ofPushMatrix();
@@ -32,7 +31,7 @@ void Subject::draw(){
     if(angle > HALF_PI || angle < -HALF_PI){
         angle += PI;
         disp *= -1;
-        disp -= font->getStringBoundingBox(ofToString(nId) + " " + name, 0, 0).width;
+        disp -= font->getStringBoundingBox(name, 0, 0).width;
     }
     ofRotateZ(ofRadToDeg(angle));
     font->drawString(ofToString(nId) + " " + name, disp, 0);

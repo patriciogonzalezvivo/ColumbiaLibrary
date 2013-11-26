@@ -1,0 +1,114 @@
+<zero>
+    <x>-50</x>
+    <y>-50</y>
+    <width>100</width>
+    <height>100</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype05/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>TEXT 00</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</zero>
+
+<one>
+    <x>-50</x>
+    <y>-50</y>
+    <width>100</width>
+    <height>100</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype05/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>TEXT 01</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</one>
+
+<two>
+    <x>-50</x>
+    <y>-50</y>
+    <width>100</width>
+    <height>100</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype05/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>TEXT 02</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</two>
+
+<three>
+    <x>-50</x>
+    <y>-50</y>
+    <width>100</width>
+    <height>100</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype05/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>TEXT 03</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</three>
+
+<four>
+    <x>-50</x>
+    <y>-50</y>
+    <width>100</width>
+    <height>100</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype05/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>TEXT 04</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</four>

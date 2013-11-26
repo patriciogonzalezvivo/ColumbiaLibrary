@@ -3,7 +3,7 @@
     <Name>SystemSettings</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>197.000000000</YPosition>
+    <YPosition>307.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -18,7 +18,7 @@
 <Widget>
     <Kind>4</Kind>
     <Name>speed</Name>
-    <Value>0.250738919</Value>
+    <Value>0.352709353</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -28,15 +28,15 @@
 <Widget>
     <Kind>4</Kind>
     <Name>toCenter</Name>
-    <Value>0.108374387</Value>
+    <Value>0.190886706</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>toClosest</Name>
-    <Value>0.092364535</Value>
+    <Value>0.071428575</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>repulsion</Name>
-    <Value>2.610837460</Value>
+    <Value>9.458127975</Value>
 </Widget>
